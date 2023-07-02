@@ -43,7 +43,7 @@ class AuthController extends Controller
 
         //
         $request->session()->regenerate();
-        return redirect()->intended('/recipe/recipe');
+        return redirect()->intended('/main/main');
     }
 
     /**
