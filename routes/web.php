@@ -22,4 +22,4 @@ use App\Http\Controllers\MainController;
 Route::get('/', [AuthController::class, 'index'])->name('front.index');
 Route::post('/login', [AuthController::class, 'login']);
 
-Route::get('/main', [MainController::class, 'index']);
+Route::get('/main/menu', [MainController::class, 'index']);

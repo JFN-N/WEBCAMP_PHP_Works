@@ -11,7 +11,7 @@ class LoginPostRequest extends FormRequest
      *
      * @return bool
      */
-    public function authorize()
+    public function rules()
     {
         return [
             'email' => ['required', 'email', 'max:254'],
