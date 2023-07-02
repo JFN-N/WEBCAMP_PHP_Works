@@ -8,6 +8,6 @@ class ArchiveController extends Controller
 {
     public function index()
     {
-        return view('archive/archive');
+        return view('archive/data');
     }
 }
