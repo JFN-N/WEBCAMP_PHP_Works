@@ -31,7 +31,7 @@ class AuthController extends Controller
 
         // データの取得
         $datum = $request->validated();
-        //var_dump($datum); exit;
+        var_dump($datum); exit;
 
         // 認証
         if (Auth::attempt($datum) === false) {
