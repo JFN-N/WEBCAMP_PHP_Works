@@ -1,9 +1,9 @@
-@extends('layout1')
+@extends('layout')
 
 {{-- メインコンテンツ --}}
-@section('contets1')
+@section('contets')
 
-        <h1>ログイン</h1>
+        <h1>レシピマスタ ログイン</h1>
         @if ($errors->any())
             <div>
             @foreach ($errors->all() as $error)
