@@ -3,7 +3,7 @@
 {{-- メインコンテンツ --}}
 @section('contets')
 
-        <h1>レシピマスタ ログイン</h1>
+        <h1>レシピマスター ログイン</h1>
         @if ($errors->any())
             <div>
             @foreach ($errors->all() as $error)
