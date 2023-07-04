@@ -28,7 +28,7 @@
 
         <h1>「買うもの」一覧</h1>
         <!--　-->
-        <a href="/completed_shopping_list/list">購入済み「買うもの」一覧</a><br>
+        <a href="/recipe/completed_recipelist">購入済み「買うもの」一覧</a><br>
         <table border="1">
         <tr>
             <th>登録日
@@ -37,12 +37,10 @@
         <tr>
             <td>{{ $Shopping_lists->created_at->format('Y/m/d')}}
             <td>{{ $Shopping_lists->name }}
-            <td><form action="{{ route('complete', ['shopping_list_id' => $Shopping_lists->id]) }}" method="post"> @csrf <button onclick='return confirm("この「買うもの」を「完了」にします。よろしいですか？");' >完了</button></form></a>
-            <td>&nbsp;&nbsp;&nbsp;</a>
-            <td><form action="{{ route('delete', ['shopping_list_id' => $Shopping_lists->id]) }}" method="post">
-            @csrf
-            @method("DELETE")
-            <button onclick='return confirm("この「買うもの」を削除します。よろしいですか？");'>削除</button>
+            <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
+            <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
+            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この「買うもの」を「完了」にします。よろしいですか？");' >完了</button></form></a>
+            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">@csrf@method("DELETE")<button onclick='return confirm("この「買うもの」を削除します。よろしいですか？");'>削除</button>
         </form></a>
         @endforeach
         </table>
@@ -51,7 +49,7 @@
         {{-- {{ $list->links() }} --}}
         現在 {{ $list->currentPage() }} ページ目<br>
         @if ($list->onFirstPage() === false)
-            <a href="/shopping_list/list">最初のページ</a>
+            <a href="/recipe/list">最初のページ</a>
         @else
             最初のページ
         @endif
