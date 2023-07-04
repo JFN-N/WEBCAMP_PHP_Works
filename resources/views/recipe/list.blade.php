@@ -1,6 +1,6 @@
-@extends('layout2')
+@extends('layoutcontent')
 
-@section('contets2')
+@section('major.contets')
 
         <h1>料理の登録</h1>
             @if (session('front.task_register_success') == true)

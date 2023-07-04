@@ -1,9 +1,9 @@
 @extends('completed_recipe.layout')
 
-@section('completed_recipe.contets')
+@section('major.contets')
 
         <h1>作れる料理</h1>
-        <a href="/shopping_list/list">登録に戻る</a><br>
+        <a href="/recipe/list">登録に戻る</a><br>
         <table border="1">
         <tr>
             <th>料理名名
