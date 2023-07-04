@@ -5,6 +5,8 @@ use App\Http\Controllers\AuthController;
 
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ArchiveController;
+use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\CompletedRecipeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,13 +33,13 @@ Route::get('/archive/data', [ArchiveController::class, 'index']);
 // 認可処理
 Route::middleware(['auth'])->group(function () {
     Route::prefix('/recipe')->group(function () {
-        Route::get('/list', [TaskController::class, 'list']);
-        Route::post('/register', [TaskController::class, 'register']);
-        Route::get('/detail/{task_id}', [TaskController::class, 'detail'])->whereNumber('task_id')->name('detail');
-        Route::get('/edit/{task_id}', [TaskController::class, 'edit'])->whereNumber('task_id')->name('edit');
-        Route::put('/edit/{task_id}', [TaskController::class, 'editSave'])->whereNumber('task_id')->name('edit_save');
-        Route::delete('/delete/{task_id}', [TaskController::class, 'delete'])->whereNumber('task_id')->name('delete');
-        Route::post('/complete/{task_id}', [TaskController::class, 'complete'])->whereNumber('task_id')->name('complete');
+        Route::get('/list', [RecipeController::class, 'list']);
+        Route::post('/register', [RecipeController::class, 'register']);
+        Route::get('/detail/{recipe_id}', [RecipeController::class, 'detail'])->whereNumber('recipe_id')->name('detail');
+        Route::get('/edit/{recipe_id}', [RecipeController::class, 'edit'])->whereNumber('recipe_id')->name('edit');
+        Route::put('/edit/{recipe_id}', [RecipeController::class, 'editSave'])->whereNumber('recipe_id')->name('edit_save');
+        Route::delete('/delete/{recipe_id}', [RecipeController::class, 'delete'])->whereNumber('recipe_id')->name('delete');
+        Route::post('/complete/{recipe_id}', [RecipeController::class, 'complete'])->whereNumber('recipe_id')->name('complete');
     });
     // 完了タスクリスト
     Route::get('/completed_tasks/list', [CompletedTaskController::class, 'list']);
