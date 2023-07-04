@@ -14,14 +14,15 @@ class ArchiveController extends Controller
         $group_by_column = ['users.name', 'completed_recipe.type'];
         $recipe = UserModel::select($group_by_column)
         //$list = completed_shopping_listsModel::select($group_by_column)
-                         ->selectRaw('count(completed_shopping_lists.type) AS task_num')
-                         ->leftJoin('completed_shopping_lists', 'users.id', '=', 'completed_shopping_lists.user_id')
-                         ->groupBy($group_by_column)
+        //SELECT type, COUNT(type) FROM completed_recipe GROUP BY type;
+                         ->selectRaw('count(completed_recipe.type) AS recipe_num')
+                         ->leftJoin('completed_recipe.type', 'users.id', '=', 'completed_recipe.user_id')
+                         ->groupBy('completed_recipe.type')
                          ->orderBy('users.name')
                          ->orderBy('completed_recipe.type')
                         ->get();
 //echo "<pre>\n";
 //var_dump($list->toArray()); exit;
-        return view('admin.user.list', ['recipe' => $recipe]);
+        return view('archive.data', ['recipe' => $recipe]);
     }
 }
