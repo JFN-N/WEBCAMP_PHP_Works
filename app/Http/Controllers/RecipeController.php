@@ -1,9 +1,11 @@
 <?php
-
+declare(strict_types=1);
 namespace App\Http\Controllers;
+use App\Http\Requests\RecipeRegisterPostRequest;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+
 use App\Models\Recipe as RecipeModel;
 use App\Models\Completed_Recipe as CompletedRecipeModel;
 
@@ -29,7 +31,7 @@ class RecipeController extends Controller
         return view('recipe.list', ['list' => $list]);
     }
 
-    public function register(TaskRegisterPostRequest $request)
+    public function register(RecipeRegisterPostRequest $request)
     {
         // validate済みのデータの取得
         $datum = $request->validated();
@@ -49,6 +51,9 @@ class RecipeController extends Controller
             echo $e->getMessage();
             exit;
         }
+
+         $request->session()->flash('front.task_register_success', true);
+
         return redirect('/recipe/list');
     }
 
@@ -106,7 +111,7 @@ class RecipeController extends Controller
     /**
      * タスクの編集処理
      */
-    public function editSave(TaskRegisterPostRequest $request, $recipe_id)
+    public function editSave(RecipeRegisterPostRequest $request, $recipe_id)
     {
         // formからの情報を取得する(validate済みのデータの取得)
         $datum = $request->validated();
