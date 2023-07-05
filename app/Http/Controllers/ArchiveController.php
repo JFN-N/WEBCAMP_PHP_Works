@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\User as UserModel;
-use App\Models\completed_shopping_lists as completed_shopping_listsModel;
+use App\Models\Completed_Recipe as CompletedRecipeModel;
 
 class ArchiveController extends Controller
 {

@@ -41,7 +41,7 @@
         @foreach ($list as $recipe)
         <tr>
             <td>{{ $recipe->name }}
-            <td>{{ $recipe->type }}
+            <td>{{ $recipe->getTypeString() }}
             <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
             <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
             <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この料理を作れるようになりましたか？");' >完了</button></form></a>
