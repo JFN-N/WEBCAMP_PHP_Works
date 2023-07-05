@@ -42,7 +42,7 @@ Route::middleware(['auth'])->group(function () {
         Route::post('/complete/{recipe_id}', [RecipeController::class, 'complete'])->whereNumber('recipe_id')->name('complete');
     });
     // 完了タスクリスト
-    Route::get('/completed_tasks/list', [CompletedTaskController::class, 'list']);
+    Route::get('/completed_recipes/list', [CompletedRecipeController::class, 'list']);
     //
     Route::get('/logout', [AuthController::class, 'logout']);
 });
