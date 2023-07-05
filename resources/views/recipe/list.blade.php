@@ -10,7 +10,7 @@
                 料理を削除しました！！<br>
             @endif
             @if (session('front.task_completed_success') == true)
-                料理を完了にしました！！<br>
+                料理をマスターしました！！<br>
             @endif
 
             @if ($errors->any())
@@ -22,25 +22,30 @@
             @endif
             <form action="/shopping_list/register" method="post">
                 @csrf
-                「買うもの」名:<input name="name" value="{{ old('name') }}"><br>
-                <button>「買うもの」を登録する</button>
+                料理名:<input name="name" value="{{ old('name') }}"><br>
+                重要度:<label><input type="radio" name="type" value="1" @if (old('priority') == 1) checked @endif>肉</label> /
+                    <label><input type="radio" name="type" value="2" @if (old('priority', 2) == 2) checked @endif>魚</label> /
+                    <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
+                    <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
+                    タスク詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
+                <button>登録する</button>
             </form>
 
-        <h1>「買うもの」一覧</h1>
+        <h1>料理レシピ一覧</h1>
         <!--　-->
         <a href="/recipe/completed_recipelist">購入済み「買うもの」一覧</a><br>
         <table border="1">
         <tr>
             <th>登録日
             <th>「買うもの」名
-        @foreach ($list as $Shopping_lists)
+        @foreach ($list as $recipe)
         <tr>
-            <td>{{ $Shopping_lists->created_at->format('Y/m/d')}}
-            <td>{{ $Shopping_lists->name }}
+            <td>{{ $recipe->name }}
+            <td>{{ $recipe->type }}
             <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
             <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
-            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この「買うもの」を「完了」にします。よろしいですか？");' >完了</button></form></a>
-            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">@csrf@method("DELETE")<button onclick='return confirm("この「買うもの」を削除します。よろしいですか？");'>削除</button>
+            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この料理を作れるようになりましたか？");' >完了</button></form></a>
+            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">@csrf@method("DELETE")<button onclick='return confirm("レシピを削除しますか？");'>削除</button>
         </form></a>
         @endforeach
         </table>
