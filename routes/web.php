@@ -34,7 +34,7 @@ Route::get('/archive/data', [ArchiveController::class, 'index']);
 Route::middleware(['auth'])->group(function () {
     Route::prefix('/recipe')->group(function () {
         Route::get('/list', [RecipeController::class, 'list']);
-        Route::post('/register', [RecipeController::class, 'register']);
+        Route::post('/list', [RecipeController::class, 'register']);
         Route::get('/detail/{recipe_id}', [RecipeController::class, 'detail'])->whereNumber('recipe_id')->name('detail');
         Route::get('/edit/{recipe_id}', [RecipeController::class, 'edit'])->whereNumber('recipe_id')->name('edit');
         Route::put('/edit/{recipe_id}', [RecipeController::class, 'editSave'])->whereNumber('recipe_id')->name('edit_save');

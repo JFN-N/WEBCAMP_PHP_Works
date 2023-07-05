@@ -20,7 +20,7 @@
                 @endforeach
                 </div>
             @endif
-            <form action="/shopping_list/register" method="post">
+            <form action="/recipe/list" method="post">
                 @csrf
                 料理名:<input name="name" value="{{ old('name') }}"><br>
                 種類:<label><input type="radio" name="type" value="1" @if (old('priority') == 1) checked @endif>肉</label> /
