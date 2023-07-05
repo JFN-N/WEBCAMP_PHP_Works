@@ -23,21 +23,21 @@
             <form action="/shopping_list/register" method="post">
                 @csrf
                 料理名:<input name="name" value="{{ old('name') }}"><br>
-                重要度:<label><input type="radio" name="type" value="1" @if (old('priority') == 1) checked @endif>肉</label> /
+                種類:<label><input type="radio" name="type" value="1" @if (old('priority') == 1) checked @endif>肉</label> /
                     <label><input type="radio" name="type" value="2" @if (old('priority', 2) == 2) checked @endif>魚</label> /
                     <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
                     <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
-                    タスク詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
+                    詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
                 <button>登録する</button>
             </form>
 
         <h1>料理レシピ一覧</h1>
         <!--　-->
-        <a href="/recipe/completed_recipelist">購入済み「買うもの」一覧</a><br>
+        <a href="/recipe/completed_recipe.list">習得一覧</a><br>
         <table border="1">
         <tr>
-            <th>登録日
-            <th>「買うもの」名
+            <th>料理名
+            <th>種類
         @foreach ($list as $recipe)
         <tr>
             <td>{{ $recipe->name }}
