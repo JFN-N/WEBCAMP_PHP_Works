@@ -11,8 +11,16 @@ class ArchiveController extends Controller
 {
     protected function getListBuilder()
     {
-        return completed_shopping_listsModel::where('user_id', Auth::id())
-                     ->orderBy('type');
+        return ::where('user_id', Auth::id());
                      //->orderBy('created_at');
+    }
+
+    public function list()
+    {
+        $books = CompletedRecipeModel::selectRaw('COUNT(book_id) as count_book')
+         ->get();
+//echo "<pre>\n";
+//var_dump($list->toArray()); exit;
+        return view('admin.user.list', ['users' => $list]);
     }
 }

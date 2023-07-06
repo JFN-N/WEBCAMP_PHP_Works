@@ -3,11 +3,15 @@
 {{-- メインコンテンツ --}}
 @section('archive.contets')
 
-        <h1>証明書</h1>
-        <p>私は、以下の料理を作ることができます。</p>
-        <p>肉：６</p>
-        <p>魚：５</p>
-        <p>野菜：４</p>
-        <p>その他：１８</p>
+        <p>私は以下の種類の料理を作ることができます</p>
+        <table border="1">
+        <tr>
+            <th>現在作れる料理の数
+        </tr>
+        @foreach ($users as $user)
+        <tr>
+            <td>{{ $recipe->count_type }}
+        @endforeach
+    </table>
 
 @endsection
