@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Completed_Recipe extends Model
 {
     use HasFactory;
+
+    /**
+     * 複数代入不可能な属性
+     */
+    protected $guarded = [];
 }
