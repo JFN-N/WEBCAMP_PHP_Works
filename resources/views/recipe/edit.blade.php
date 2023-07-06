@@ -15,10 +15,10 @@
                 @method("PUT")
                 料理名:<input name="name" value="{{ old('name') ?? $recipe->name }}"><br>
                 料理の詳細:<textarea name="detail">{{ old('detail') ?? $recipe->detail }}</textarea><br>
-                種類:<label><input type="radio" name="type" value="1" @if ((old('priority') ?? $task->priority) == 1) checked @endif>肉</label> /
-                    <label><input type="radio" name="type" value="2" @if ((old('priority') ?? $task->priority) == 2) checked @endif>魚</label> /
-                    <label><input type="radio" name="type" value="3" @if ((old('priority') ?? $task->priority) == 3) checked @endif>野菜</label> /
-                    <label><input type="radio" name="type" value="4" @if ((old('priority') ?? $task->priority) == 4) checked @endif>その他</label><br>
+                種類:<label><input type="radio" name="type" value="1" @if ((old('type') ?? $recipe->type) == 1) checked @endif>肉</label> /
+                    <label><input type="radio" name="type" value="2" @if ((old('type') ?? $recipe->type) == 2) checked @endif>魚</label> /
+                    <label><input type="radio" name="type" value="3" @if ((old('type') ?? $recipe->type) == 3) checked @endif>野菜</label> /
+                    <label><input type="radio" name="type" value="4" @if ((old('type') ?? $recipe->type == 4) checked @endif>その他</label><br>
                 <button>編集完了</button>
             </form>
 

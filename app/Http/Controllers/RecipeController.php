@@ -69,7 +69,7 @@ class RecipeController extends Controller
     /**
      * タスクの編集画面表示
      */
-    public function edit($task_id)
+    public function edit($recipe_id)
     {
         //
         return $this->singleTaskRender($recipe_id, 'recipe.edit');
