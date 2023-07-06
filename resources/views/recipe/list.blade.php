@@ -45,7 +45,10 @@
             <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
             <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
             <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この料理を作れるようになりましたか？");' >完了</button></form></a>
-            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">@csrf@method("DELETE")<button onclick='return confirm("レシピを削除しますか？");'>削除</button>
+            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">
+                @csrf
+                @method("DELETE")
+                <button onclick='return confirm("レシピを削除しますか？");'>削除</button>
         </form></a>
         @endforeach
         </table>

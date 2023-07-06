@@ -27,8 +27,8 @@ class Recipe extends Model
     /**
      * 重要度の文字列を取得する
      */
-    public function getPriorityString()
+    public function getTypeString()
     {
-        return $this::TYOE_VALUE[ $this->type ] ?? '';
+        return $this::TYPE_VALUE[ $this->type ] ?? '';
     }
 }
