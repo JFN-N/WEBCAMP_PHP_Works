@@ -40,6 +40,7 @@ Route::middleware(['auth'])->group(function () {
         Route::put('/edit/{recipe_id}', [RecipeController::class, 'editSave'])->whereNumber('recipe_id')->name('edit_save');
         Route::delete('/delete/{recipe_id}', [RecipeController::class, 'delete'])->whereNumber('recipe_id')->name('delete');
         Route::post('/complete/{recipe_id}', [RecipeController::class, 'complete'])->whereNumber('recipe_id')->name('complete');
+        //Route::get('/completed_list', [CompletedRecipeController::class, 'list']);
     });
     // 完了タスクリスト
     Route::get('/completed_recipes/list', [CompletedRecipeController::class, 'list']);

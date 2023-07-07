@@ -6,7 +6,7 @@
         <a href="/recipe/list">登録に戻る</a><br>
         <table border="1">
         <tr>
-            <th>料理名名
+            <th>料理名
             <th>種類
 @foreach ($list as $Completed_shopping_lists)
         <tr>

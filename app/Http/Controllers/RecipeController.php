@@ -178,7 +178,7 @@ class RecipeController extends Controller
 
             // tasks側を削除する
             $recipe->delete();
-//var_dump($task->toArray()); exit;
+            //var_dump($task->toArray()); exit;
 
             // completed_tasks側にinsertする
             $dask_datum = $recipe->toArray();

@@ -11,8 +11,8 @@ class ArchiveController extends Controller
 {
     protected function getListBuilder()
     {
-        return ::where('user_id', Auth::id());
-                     //->orderBy('created_at');
+        return CompletedRecipeModel::where('user_id', Auth::id())
+                     ->orderBy('created_at');
     }
 
     public function list()
