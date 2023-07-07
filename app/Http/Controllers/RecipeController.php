@@ -175,7 +175,7 @@ class RecipeController extends Controller
                 // task_idが不正なのでトランザクション終了
                 throw new \Exception('');
             }
-
+            //var_dump($recipe->toArray()); exit;
             // tasks側を削除する
             $recipe->delete();
             //var_dump($task->toArray()); exit;
@@ -196,7 +196,7 @@ class RecipeController extends Controller
             // 完了メッセージ出力
             $request->session()->flash('front.task_completed_success', true);
         } catch(\Throwable $e) {
-//var_dump($e->getMessage()); exit;
+            var_dump($e->getMessage()); exit;
             // トランザクション異常終了
             DB::rollBack();
             // 完了失敗メッセージ出力
