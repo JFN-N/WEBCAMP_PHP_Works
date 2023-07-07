@@ -150,8 +150,8 @@ class RecipeController extends Controller
         $recipe = $this->getRecipeModel($recipe_id);
 
         // タスクを削除する
-        if ($task !== null) {
-            $task->delete();
+        if ($recipe !== null) {
+            $recipe->delete();
             $request->session()->flash('front.task_delete_success', true);
         }
 
@@ -170,8 +170,8 @@ class RecipeController extends Controller
             DB::beginTransaction();
 
             // task_idのレコードを取得する
-            $task = $this->getRecipeModel($recipe_id);
-            if ($task === null) {
+            $recipe = $this->getRecipeModel($recipe_id);
+            if ($recipe === null) {
                 // task_idが不正なのでトランザクション終了
                 throw new \Exception('');
             }

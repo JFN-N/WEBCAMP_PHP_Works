@@ -18,7 +18,7 @@
                 種類:<label><input type="radio" name="type" value="1" @if ((old('type') ?? $recipe->type) == 1) checked @endif>肉</label> /
                     <label><input type="radio" name="type" value="2" @if ((old('type') ?? $recipe->type) == 2) checked @endif>魚</label> /
                     <label><input type="radio" name="type" value="3" @if ((old('type') ?? $recipe->type) == 3) checked @endif>野菜</label> /
-                    <label><input type="radio" name="type" value="4" @if ((old('type') ?? $recipe->type == 4) checked @endif>その他</label><br>
+                    <label><input type="radio" name="type" value="4" @if ((old('type') ?? $recipe->type) == 4) checked @endif>その他</label><br>
                 <button>編集完了</button>
             </form>
 
