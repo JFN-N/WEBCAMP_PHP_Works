@@ -33,7 +33,7 @@
 
         <h1>料理レシピ一覧</h1>
         <!--　-->
-        <a href="/recipe/completed_recipe.list">習得一覧</a><br>
+        <a href="/recipe/completed_list">習得一覧</a><br>
         <table border="1">
         <tr>
             <th>料理名

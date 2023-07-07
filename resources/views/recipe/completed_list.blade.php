@@ -18,7 +18,7 @@
         {{-- {{ $list->links() }} --}}
         現在 {{ $list->currentPage() }} ページ目<br>
         @if ($list->onFirstPage() === false)
-            <a href="/completed_shopping_list/list">最初のページ</a>
+            <a href="/recipe/completed_list">最初のページ</a>
         @else
             最初のページ
         @endif

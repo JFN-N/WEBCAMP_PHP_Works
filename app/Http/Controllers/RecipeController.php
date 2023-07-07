@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Recipe as RecipeModel;
-use App\Models\Completed_Recipe as CompletedRecipeModel;
+use App\Models\CompletedRecipe as CompletedRecipeModel;
 
 use Illuminate\Support\Facades\Auth;
 
