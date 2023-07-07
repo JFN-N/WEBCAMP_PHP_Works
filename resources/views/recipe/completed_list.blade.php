@@ -1,4 +1,4 @@
-@extends('completed_recipe.layout')
+@extends('layoutcontent')
 
 @section('major.contets')
 
