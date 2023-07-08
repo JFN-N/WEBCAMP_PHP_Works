@@ -2,7 +2,7 @@
 
 {{-- メインコンテンツ --}}
 @section('archive.contets')
-
+        <p>証明書</p>
         <p>私は以下の種類の料理を作ることができます</p>
         <table border="1">
         <tr>
@@ -15,5 +15,6 @@
             <td>{{ $mastered_recipe->task_num }}
         @endforeach
     </table>
-
+    <br>
+    <a href="/main/menu">メニューに戻る</a>
 @endsection

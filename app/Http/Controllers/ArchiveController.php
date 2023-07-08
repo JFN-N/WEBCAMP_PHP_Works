@@ -3,7 +3,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 use App\Models\User as UserModel;
 use App\Models\CompletedRecipe as CompletedRecipeModel;
 

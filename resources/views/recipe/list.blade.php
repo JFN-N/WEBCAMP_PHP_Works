@@ -78,5 +78,6 @@
         <menu label="リンク">
         <a href="/logout">ログアウト</a><br>
         </menu>
+        <a href="/main/menu">メニューに戻る</a>
 
 @endsection
