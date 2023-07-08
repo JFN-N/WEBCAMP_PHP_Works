@@ -6,11 +6,13 @@
         <p>私は以下の種類の料理を作ることができます</p>
         <table border="1">
         <tr>
-            <th>現在作れる料理の数
+            <th>料理の種類
+            <th>料理の数
         </tr>
-        @foreach ($users as $user)
+        @foreach ($list as $mastered_recipe)
         <tr>
-            <td>{{ $recipe->count_type }}
+            <td>{{ $mastered_recipe->getTypeString() }}
+            <td>{{ $mastered_recipe->task_num }}
         @endforeach
     </table>
 

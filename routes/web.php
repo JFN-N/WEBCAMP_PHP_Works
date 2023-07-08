@@ -28,7 +28,7 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/main/menu', [MainController::class, 'index']);
 
-Route::get('/archive/data', [ArchiveController::class, 'index']);
+Route::get('/archive/data', [ArchiveController::class, 'list']);
 
 // 認可処理
 Route::middleware(['auth'])->group(function () {
