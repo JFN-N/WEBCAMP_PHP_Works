@@ -29,8 +29,8 @@ Route::post('/login', [AuthController::class, 'login']);
 
 //ユーザー登録
 Route::prefix('/user')->group(function () {
-    Route::get('/register', [UserController::class, 'index'])->name('front.user.register');
-    Route::post('/register', [UserController::class, 'register']);
+    Route::get('/register', [UserRegisterController::class, 'index'])->name('front.user.register');
+    Route::post('/register', [UserRegisterController::class, 'register']);
 });
 
 Route::get('/main/menu', [MainController::class, 'index']);
