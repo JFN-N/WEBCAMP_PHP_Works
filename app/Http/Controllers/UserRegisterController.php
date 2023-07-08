@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginPostRequest;
 use Illuminate\Support\Facades\Auth;
 
-class UserRegitserController extends Controller
+class UserRegisterController extends Controller
 {
     public function index()
     {
