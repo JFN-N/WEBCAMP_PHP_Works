@@ -7,6 +7,7 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\ArchiveController;
 use App\Http\Controllers\RecipeController;
 use App\Http\Controllers\CompletedRecipeController;
+use App\Http\Controllers\UserRegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,12 @@ use App\Http\Controllers\CompletedRecipeController;
 
 Route::get('/', [AuthController::class, 'index'])->name('front.index');
 Route::post('/login', [AuthController::class, 'login']);
+
+//ユーザー登録
+Route::prefix('/user')->group(function () {
+    Route::get('/register', [UserController::class, 'index'])->name('front.user.register');
+    Route::post('/register', [UserController::class, 'register']);
+});
 
 Route::get('/main/menu', [MainController::class, 'index']);
 
