@@ -12,7 +12,6 @@
         <tr>
             <td>{{ $complete_recipe->name }}
             <td>{{ $complete_recipe->getTypeString() }}
-            <td>
 @endforeach
         </table>
         <!-- ページネーション -->
