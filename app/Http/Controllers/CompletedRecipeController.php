@@ -32,7 +32,7 @@ class CompletedRecipeController extends Controller
 /*
 $sql = $this->getListBuilder()
             ->toSql();
-//echo "<pre>\n"; var_dump($sql, $list); exit;
+echo "<pre>\n"; var_dump($sql, $list); exit;
 var_dump($sql);
 */
         //

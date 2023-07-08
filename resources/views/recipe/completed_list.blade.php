@@ -8,9 +8,10 @@
         <tr>
             <th>料理名
             <th>種類
-@foreach ($list as $Completed_shopping_lists)
+@foreach ($list as $complete_recipe)
         <tr>
-            <td>{{ $Completed_shopping_lists->name }}
+            <td>{{ $complete_recipe->name }}
+            <td>{{ $complete_recipe->getTypeString() }}
             <td>
 @endforeach
         </table>
