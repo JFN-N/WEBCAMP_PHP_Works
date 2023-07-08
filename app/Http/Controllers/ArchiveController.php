@@ -19,7 +19,7 @@ class ArchiveController extends Controller
     {
         $group_by_column = ['users.id', 'completed_recipes.type'];
         $list = CompletedRecipeModel::select($group_by_column)
-        //$list = completed_shopping_listsModel::select($group_by_column)
+        //$list = $this->getListBuilder()
                          ->selectRaw('count(completed_recipes.type) AS task_num')
                          ->leftJoin('users', 'users.id', '=', 'completed_recipes.user_id')
                          ->groupBy($group_by_column)
