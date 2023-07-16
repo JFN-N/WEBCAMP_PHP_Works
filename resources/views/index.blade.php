@@ -2,7 +2,8 @@
 
 {{-- メインコンテンツ --}}
 @section('contets')
-
+    <div class=main>
+        <div class=main-form>
         <h1>レシピマスター ログイン</h1>
         @if ($errors->any())
             <div>
@@ -22,5 +23,6 @@
         </form>
 
         <a href="/user/register">会員登録</a><br>
-
+        </div>
+    </div>
 @endsection

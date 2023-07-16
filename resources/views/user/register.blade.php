@@ -1,4 +1,4 @@
-@extends('layoutcontent')
+@extends('layoutcontent2')
 
 {{-- メインコンテンツ --}}
 @section('major.contets')

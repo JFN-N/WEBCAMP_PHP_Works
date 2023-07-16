@@ -1,3 +1,19 @@
-h1{
-    color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%; /* 横幅いっぱい */
+  height: 840px;
+  background-color: orange; /* 背景色orange */
+}
+
+.main-form{
+  width: 900px; /* 横幅650px */
+  height: 840px;/* 親の高さに揃える */
+  background-color: white;
+  margin: 0 auto; /* 真ん中に寄せる */
+  text-align: center;
 }
