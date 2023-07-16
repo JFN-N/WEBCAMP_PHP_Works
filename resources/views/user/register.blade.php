@@ -2,6 +2,8 @@
 
 {{-- メインコンテンツ --}}
 @section('major.contets')
+    <div class=main>
+        <div class=main-form>
         <h1>ユーザー登録</h1>
         @if ($errors->any())
             <div>
@@ -17,4 +19,6 @@
             パスワード：<input  name="password" type="password"><br>
             <button>登録する</button>
         </form>
+        </div>
+    </div>
 @endsection

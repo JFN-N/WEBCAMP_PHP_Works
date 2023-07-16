@@ -2,7 +2,9 @@
 
 {{-- メインコンテンツ --}}
 @section('archive.contets')
-        <p>証明書</p>
+<div class = section>
+        <div class = section-text>
+        <h1>証明書</h1>
         <p>私は以下の種類の料理を作ることができます</p>
         <table border="1">
         <tr>
@@ -17,4 +19,6 @@
     </table>
     <br>
     <a href="/main/menu">メニューに戻る</a>
+        </div>
+</div>
 @endsection
