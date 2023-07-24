@@ -43,10 +43,11 @@
   button {
   width: 50%;
   height: 100%;
+  font-size: 50%;
   }
 
   a{
-    font-size: 200%;
+    font-size: 300%;
   }
 
 }
