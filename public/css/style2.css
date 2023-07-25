@@ -4,16 +4,38 @@
   box-sizing: border-box;
 }
 
+.header{
+  width: 100%;
+  height: 100px;
+}
+
+.header-center{
+  width: 900px; /* 横幅650px */
+  height: 100px;/* 親の高さに揃える */
+  background-color: white;
+  margin: 0 auto; /* 真ん中に寄せる */
+  text-align: center;
+}
+
 .section{
     width: 100%; /* 横幅いっぱい */
-    height: 840px;
-    background-color: orange; /* 背景色orange */
+    height: 340px;
 }
 
 .section-text{
   width: 900px; /* 横幅650px */
-  height: 840px;/* 親の高さに揃える */
+  height: 340px;/* 親の高さに揃える */
   background-color: white;
   margin: 0 auto; /* 真ん中に寄せる */
   text-align: center;
+}
+
+@media(max-width:600px){
+  h1{
+    font-size: 300%;
+  }
+
+  a{
+    font-size: 300%;
+  }
 }
