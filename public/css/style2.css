@@ -9,14 +9,6 @@
   height: 100px;
 }
 
-.header-center{
-  width: 900px; /* 横幅650px */
-  height: 100px;/* 親の高さに揃える */
-  background-color: white;
-  margin: 0 auto; /* 真ん中に寄せる */
-  text-align: center;
-}
-
 .section{
     width: 100%; /* 横幅いっぱい */
     height: 340px;
@@ -31,6 +23,18 @@
 }
 
 @media(max-width:600px){
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  .header{
+  width: 851px;
+  height: 100px;
+  }
+
   h1{
     font-size: 300%;
   }
