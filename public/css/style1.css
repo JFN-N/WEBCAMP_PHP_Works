@@ -21,13 +21,13 @@
 
   .main{
     width: 100%; /* 横幅いっぱい */
-    height: 440px;
+    height: 840px;
     background-color: orange;
   }
 
   .main-content{
     width: 900px; /* 横幅650px */
-    height: 440px;/* 親の高さに揃える */
+    height: 640px;/* 親の高さに揃える */
     background-color: white;
     margin: 0 auto; /* 真ん中に寄せる */
     text-align: center;
