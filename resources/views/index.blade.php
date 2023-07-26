@@ -18,7 +18,7 @@
         @if ($errors->any())
             <div>
             @foreach ($errors->all() as $error)
-                {{ $error }}<br>
+                <p class=validation>{{ $error }}</p><br>
             @endforeach
             </div>
         @endif
