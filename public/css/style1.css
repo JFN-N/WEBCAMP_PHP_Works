@@ -59,4 +59,30 @@
     margin: 0 auto; /* 真ん中に寄せる */
     text-align: center;
   }
+
+  h1{
+    font-size: 70px;
+  }
+
+  .form-main{
+    font-size: 50px;
+  }
+
+  input{
+    width: 230px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  button{
+    height:70px ;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .register{
+    font-size: 50px;
+  }
+
+
 }
