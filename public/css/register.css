@@ -1,0 +1,14 @@
+@media screen and (min-width:481px) {
+	/* ここにパソコン版だけの記述 */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      }
+
+
+}
+
+@media screen and (max-width:480px) {
+
+}
