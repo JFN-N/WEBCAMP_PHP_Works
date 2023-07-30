@@ -3,7 +3,7 @@
 {{-- メインコンテンツ --}}
 @section('major.contets')
     <div class=header>
-        </div class=header-center></div>
+        <div class=header-center></div>
     </div>
 
     <div class=main>
