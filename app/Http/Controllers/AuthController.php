@@ -9,6 +9,8 @@ use App\Http\Requests\LoginPostRequest;
 
 use Illuminate\Support\Facades\Auth;
 
+use App\Models\User;
+
 class AuthController extends Controller
 {
     /**
@@ -52,7 +54,7 @@ class AuthController extends Controller
      *
 
     // ゲストユーザー用のユーザーIDを定数として定義
-    private const GUEST_USER_ID = 1;
+    private const GUEST_USER_ID = 4;
 
     // ゲストログイン処理
      public function guestLogin()
