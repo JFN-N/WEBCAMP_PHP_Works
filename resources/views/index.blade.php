@@ -6,14 +6,12 @@
 
 
         <div class="header">
-            <div class="header-color"></div>
+            <div class="header-color">
+                <h1>レシピマスター ログイン</h1>
+            </div>
         </div>
 
     <div class=main-content>
-
-            <div class=top>
-            <h1>レシピマスター ログイン</h1>
-            </div>
 
         @if ($errors->any())
             <div>
@@ -35,7 +33,7 @@
             </form>
             </div>
 
-            <div>
+            <div class=guestLoginButton>
             <form>
                 <button>
                 <a href="{{ route('login.guest') }}" class="text-white">
