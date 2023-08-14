@@ -31,8 +31,14 @@
                 @csrf
                 email：<input name="email"><br>
                 パスワード：<input name="password" type="password"><br>
-                <button>ログインする</button>
+                <button>ログイン</button>
             </form>
+            </div>
+
+            <div>
+                <form action="/gestLogin" method="post">
+                    <button>ゲストログイン</button>
+                </form>
             </div>
 
             <div class=register>
