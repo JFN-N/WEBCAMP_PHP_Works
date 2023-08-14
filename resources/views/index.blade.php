@@ -36,9 +36,13 @@
             </div>
 
             <div>
-                <form action="/gestLogin" method="post">
-                    <button>ゲストログイン</button>
-                </form>
+            <form>
+                <button action>
+                <a href="{{ route('login.guest') }}" class="text-white">
+                ゲストログイン
+                </a>
+                </button>
+            </form>
             </div>
 
             <div class=register>

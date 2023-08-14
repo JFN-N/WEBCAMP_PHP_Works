@@ -52,6 +52,7 @@ class AuthController extends Controller
     /**
      * ゲストログイン処理
      *
+     */
 
     // ゲストユーザー用のユーザーIDを定数として定義
     private const GUEST_USER_ID = 4;
@@ -64,10 +65,10 @@ class AuthController extends Controller
             return redirect()->intended('/main/menu');
         }
 
-        return redirect(/)
+        return redirect();
 
     }
-     */
+
 
     /**
      * ログアウト処理
