@@ -63,6 +63,9 @@ class AuthController extends Controller
         if (Auth::loginUsingId(self::GUEST_USER_ID)) {
             return redirect()->intended('/main/menu');
         }
+
+        return redirect(/)
+
     }
      */
 
