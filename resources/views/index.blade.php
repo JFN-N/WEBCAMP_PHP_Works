@@ -37,7 +37,7 @@
 
             <div>
             <form>
-                <button action>
+                <button>
                 <a href="{{ route('login.guest') }}" class="text-white">
                 ゲストログイン
                 </a>

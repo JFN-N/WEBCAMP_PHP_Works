@@ -27,7 +27,7 @@ use App\Http\Controllers\UserRegisterController;
 Route::get('/', [AuthController::class, 'index'])->name('front.index');
 Route::post('/login', [AuthController::class, 'login']);
 //Route::post('/login', [AuthController::class, 'guestLogin']);
-Route::post('/guest', [AuthController::class, 'guestLogin']);
+Route::post('/guest', [AuthController::class, 'guestLogin'])->name('login.guest');
 
 //ユーザー登録
 Route::prefix('/user')->group(function () {
