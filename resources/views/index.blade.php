@@ -11,7 +11,7 @@
             </div>
         </div>
 
-    <div class=main-content>
+    <div class="main-content">
 
         @if ($errors->any())
             <div>
@@ -24,12 +24,18 @@
                 ユーザーを登録しました！！<br>
         @endif
 
-            <div class=form-main>
+            <div class="form-main">
             <form action="/login" method="post">
+                <div class="form-input">
                 @csrf
-                email：<input name="email"><br>
-                パスワード：<input name="password" type="password"><br>
+                email：<br>
+                <input name="email"><br>
+                パスワード：<br>
+                <input name="password" type="password"><br>
+                </div>
+                <div class="form-button">
                 <button>ログイン</button>
+                </div>
             </form>
             </div>
 
