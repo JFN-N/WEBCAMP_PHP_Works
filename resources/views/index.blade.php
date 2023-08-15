@@ -5,13 +5,17 @@
 <div class=main>
 
 
-        <div class="header">
-            <div class="header-color">
-                <h1>レシピマスター ログイン</h1>
-            </div>
+    <div class="header">
+        <div class="header-color">
+        <h1>レシピマスター ログイン</h1>
+        <hr size="10" color="orange">
         </div>
+    </div>
 
-    <div class="main-content">
+    <div class="header-middle">
+    </div>
+
+    <div class="body">
 
         @if ($errors->any())
             <div>
@@ -29,9 +33,9 @@
                 <div class="form-input">
                 @csrf
                 email：<br>
-                <input name="email"><br>
+                <input name="email" class="input-size"><br>
                 パスワード：<br>
-                <input name="password" type="password"><br>
+                <input name="password" type="password" class="input-size"><br>
                 </div>
                 <div class="form-button">
                 <button>ログイン</button>
