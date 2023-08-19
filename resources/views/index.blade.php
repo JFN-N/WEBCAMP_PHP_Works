@@ -44,16 +44,14 @@
             </div>
 
             <div class=guestLoginButton>
-            <form>
-                <button>
-                <a href="{{ route('login.guest') }}" class="text-white">
-                ゲストログイン
-                </a>
-                </button>
+            <form action="{{ route('login.guest') }}" name="guest" method="post">
+                <button>ゲストログイン</button>
+                <a href="{{ route('login.guest') }}" class="text-white"></a>
             </form>
             </div>
 
             <div class=register>
+            <p>ユーザー未登録の場合は、以下から登録をお願い致します。</p>
             <a href="/user/register">会員登録</a>
             </div>
 
