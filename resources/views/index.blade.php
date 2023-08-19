@@ -44,16 +44,18 @@
             </div>
 
             <div class=guestLoginButton>
-            <form action="{{ route('login.guest') }}" name="guest" method="post">
+            <form action="{{ route('login.guest') }}" method="post">
+                @csrf
                 <button>ゲストログイン</button>
-                <a href="{{ route('login.guest') }}" class="text-white"></a>
             </form>
             </div>
 
+        <div class="footer">
             <div class=register>
             <p>ユーザー未登録の場合は、以下から登録をお願い致します。</p>
             <a href="/user/register">会員登録</a>
             </div>
+        </div>
 
     </div>
 
