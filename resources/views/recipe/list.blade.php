@@ -8,6 +8,10 @@
         <h1>レシピマスター</h1>
         </div>
     </div>
+    <div class="sub-header">
+        <a href="/main/menu" class="header-main-menu">メインメニュー</a>　》　料理の登録・確認
+    </div>
+    <hr>
 
     <div class="register-view">
         <div class="register-form-logo">
@@ -45,7 +49,7 @@
         </div>
     </div>
 
-    <hr size="10" color="orange">
+    <hr size="5" color="orange">
 
     <div class="list-form">
 
@@ -101,10 +105,14 @@
     </div>
         <br>
         <hr>
+
+        <div class ="footer">
+        <a href="/main/menu">メニューに戻る</a>
         <menu label="リンク">
         <a href="/logout">ログアウト</a><br>
         </menu>
-        <a href="/main/menu">メニューに戻る</a>
+        </div>
+
 </div>
 
 @endsection
