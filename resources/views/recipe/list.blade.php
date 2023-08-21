@@ -9,10 +9,12 @@
         </div>
     </div>
 
-    <div class="register-form">
+    <div class="register-view">
         <div class="register-form-logo">
         <h1>料理の登録</h1>
         </div>
+
+        <div class="regsiter--main-form">
             @if (session('front.task_register_success') == true)
                 料理を登録しました！！<br>
             @endif
@@ -40,6 +42,7 @@
                     詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
                 <button>登録する</button>
             </form>
+        </div>
     </div>
 
     <hr size="10" color="orange">
@@ -49,7 +52,7 @@
         <div class="list-form-logo">
         <h1>料理レシピ一覧</h1>
         </div>
-        
+
         <div class="list-view">
         <!--　-->
         <table border="1">
