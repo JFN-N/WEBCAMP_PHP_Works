@@ -1,8 +1,18 @@
 @extends('layoutcontent')
 
 @section('major.contets')
+<div class="main">
 
+    <div class="header">
+        <div class="header-logo">
+        <h1>レシピマスター</h1>
+        </div>
+    </div>
+
+    <div class="register-form">
+        <div class="register-form-logo">
         <h1>料理の登録</h1>
+        </div>
             @if (session('front.task_register_success') == true)
                 料理を登録しました！！<br>
             @endif
@@ -30,10 +40,18 @@
                     詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
                 <button>登録する</button>
             </form>
+    </div>
 
+    <hr size="10" color="orange">
+
+    <div class="list-form">
+
+        <div class="list-form-logo">
         <h1>料理レシピ一覧</h1>
+        </div>
+        
+        <div class="list-view">
         <!--　-->
-        <a href="/recipe/completed_list">習得一覧</a><br>
         <table border="1">
         <tr>
             <th>料理名
@@ -52,9 +70,10 @@
         </form></a>
         @endforeach
         </table>
-
+        </div>
         <!-- ページネーション -->
         {{-- {{ $list->links() }} --}}
+        <div class="list-button">
         現在 {{ $list->currentPage() }} ページ目<br>
         @if ($list->onFirstPage() === false)
             <a href="/recipe/list">最初のページ</a>
@@ -74,10 +93,15 @@
             次に進む
         @endif
         <br>
+        <a href="/recipe/completed_list">習得一覧</a>
+        </div>
+    </div>
+        <br>
         <hr>
         <menu label="リンク">
         <a href="/logout">ログアウト</a><br>
         </menu>
         <a href="/main/menu">メニューに戻る</a>
+</div>
 
 @endsection
