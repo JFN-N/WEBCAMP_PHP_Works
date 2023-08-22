@@ -5,21 +5,16 @@
 }
 
 .header{
-  width: 100%;
-  height: 100px;
+    width: 100%;
+    height:50px;
+    background-color:#F0BF4C;
+    font-size: 14px;
 }
 
-.section{
-    width: 100%; /* 横幅いっぱい */
-    height: 340px;
-}
+.header-logo{
+  padding-top: 5px;
+  padding-left: 40px;
 
-.section-text{
-  width: 900px; /* 横幅650px */
-  height: 340px;/* 親の高さに揃える */
-  background-color: white;
-  margin: 0 auto; /* 真ん中に寄せる */
-  text-align: center;
 }
 
 @media(max-width:600px){
@@ -30,16 +25,6 @@
   box-sizing: border-box;
   }
 
-  .header{
-  width: 851px;
-  height: 100px;
-  }
 
-  h1{
-    font-size: 300%;
-  }
 
-  a{
-    font-size: 300%;
-  }
 }
