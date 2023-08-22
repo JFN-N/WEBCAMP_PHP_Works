@@ -16,7 +16,11 @@
         <h1>メインメニュー</h1>
     </div>
 
-    <div class="view"></div>
+
+
+    <div class="button">
+
+    <div class="left-blank"></div>
 
     <div class="archive-button">
         <a href="/archive/data">
@@ -29,6 +33,10 @@
             <button type="button">登録</button>
         </a>
     </div>
+
+    </div>
+
+
 
 </div>
 
