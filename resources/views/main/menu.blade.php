@@ -16,7 +16,7 @@
         <h1>メインメニュー</h1>
     </div>
 
-
+    <hr>
 
     <div class="button">
 
