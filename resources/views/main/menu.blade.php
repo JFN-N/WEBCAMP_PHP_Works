@@ -10,6 +10,14 @@
 
 <div class="body">
 
+
+
+    <div class="body-logo">
+        <h1>メインメニュー</h1>
+    </div>
+
+    <div class="view"></div>
+
     <div class="archive-button">
         <a href="/archive/data">
             <button type="button">証明書</button>
@@ -24,8 +32,7 @@
 
 </div>
 
-
-
+<hr>
 
 <div class="footer">
     <a href="/logout">ログアウト</a>

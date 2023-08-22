@@ -13,8 +13,39 @@
 
 .header-logo{
     padding-top: 5px;
-    padding-left: 40px;
+    padding-left: 300px;
     padding-bottom: 10px;
+}
+
+.body{
+  background-color: white;
+  width: 100%;
+  height: 740px;
+}
+
+.body-logo{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
+
+.view{
+  width: 100%;
+  height: 100px;
+  background-color: orange;
+}
+
+.archive-button{
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+.list-button{
+  width: 100%;
+  height: 100px;
+  background-color: red;
 }
 
 @media(max-width:600px){
