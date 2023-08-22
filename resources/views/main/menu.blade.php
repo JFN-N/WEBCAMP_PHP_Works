@@ -29,7 +29,7 @@
     </div>
 
     <div class="list-button">
-        <a href="/recipe/list">
+        <a href="/recipe/list" class="btn01">
             <button type="button">登録</button>
         </a>
     </div>
