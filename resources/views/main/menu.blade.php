@@ -3,10 +3,10 @@
 {{-- メインコンテンツ --}}
 @section('main.contets')
 <div class="header">
-    <div class ="header-logo">
+        <div class="header-logo">
         <h1>レシピマスター</h1>
+        </div>
     </div>
-</div>
 
 <div class="body">
 
@@ -17,7 +17,9 @@
     </div>
 
     <div class="list-button">
-        <a href="/recipe/list">登録</a>
+        <a href="/recipe/list">
+            <button type="button">登録</button>
+        </a>
     </div>
 
 </div>

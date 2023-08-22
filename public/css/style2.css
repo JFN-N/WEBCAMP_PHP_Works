@@ -12,9 +12,9 @@
 }
 
 .header-logo{
-  padding-top: 5px;
-  padding-left: 40px;
-
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
 
 @media(max-width:600px){
