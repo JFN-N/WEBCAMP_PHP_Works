@@ -16,7 +16,7 @@
     <div class="register-view">
 
     <div class="register-form-logo">
-    <h1>料理の登録</h1>
+    <h2>料理の登録</h2>
     </div>
 
     <div class="regsiter-main-form">
@@ -29,6 +29,9 @@
         @if (session('front.task_completed_success') == true)
             料理をマスターしました！！<br>
         @endif
+        @if (session('front.task_detail_forget') == true)
+            詳細を入力してください<br>
+        @endif
 
         @if ($errors->any())
         <div>
@@ -39,8 +42,8 @@
         @endif
         <form action="/recipe/list" method="post">
             @csrf
-            料理名:<input name="name" value="{{ old('name') }}"><br>
-            種類:<label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>肉</label> /
+            料理名:　<input name="name" value="{{ old('name') }}"><br>
+            種類:　<label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>肉</label> /
                 <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>魚</label> /
                 <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
                 <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
@@ -55,7 +58,7 @@
     <div class="list-form">
 
         <div class="list-form-logo">
-        <h1>料理レシピ一覧</h1>
+        <h2>料理レシピ一覧</h2>
         </div>
 
         <div class="list-view">
@@ -80,6 +83,7 @@
         @endforeach
         </table>
         </div>
+
         <!-- ページネーション -->
         {{-- {{ $list->links() }} --}}
         <div class="list-button">

@@ -17,7 +17,7 @@ class RecipeRegisterPostRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:128'],
-            'detail' => ['max:65535'],
+            'detail' => ['required', 'max:65535'],
             'type' => ['required', 'numeric', Rule::in( array_keys(RecipeModel::TYPE_VALUE) ) ],
         ];
     }
