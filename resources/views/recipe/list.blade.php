@@ -14,38 +14,39 @@
     <hr>
 
     <div class="register-view">
-        <div class="register-form-logo">
-        <h1>料理の登録</h1>
+
+    <div class="register-form-logo">
+    <h1>料理の登録</h1>
+    </div>
+
+    <div class="regsiter-main-form">
+        @if (session('front.task_register_success') == true)
+            料理を登録しました！！<br>
+        @endif
+        @if (session('front.task_delete_success') == true)
+            料理を削除しました！！<br>
+        @endif
+        @if (session('front.task_completed_success') == true)
+            料理をマスターしました！！<br>
+        @endif
+
+        @if ($errors->any())
+        <div>
+        @foreach ($errors->all() as $error)
+            {{ $error }}<br>
+        @endforeach
         </div>
-
-        <div class="regsiter--main-form">
-            @if (session('front.task_register_success') == true)
-                料理を登録しました！！<br>
-            @endif
-            @if (session('front.task_delete_success') == true)
-                料理を削除しました！！<br>
-            @endif
-            @if (session('front.task_completed_success') == true)
-                料理をマスターしました！！<br>
-            @endif
-
-            @if ($errors->any())
-                <div>
-                @foreach ($errors->all() as $error)
-                    {{ $error }}<br>
-                @endforeach
-                </div>
-            @endif
-            <form action="/recipe/list" method="post">
-                @csrf
-                料理名:<input name="name" value="{{ old('name') }}"><br>
-                種類:<label><input type="radio" name="type" value="1" @if (old('priority') == 1) checked @endif>肉</label> /
-                    <label><input type="radio" name="type" value="2" @if (old('priority', 2) == 2) checked @endif>魚</label> /
-                    <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
-                    <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
-                    詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
-                <button>登録する</button>
-            </form>
+        @endif
+        <form action="/recipe/list" method="post">
+            @csrf
+            料理名:<input name="name" value="{{ old('name') }}"><br>
+            種類:<label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>肉</label> /
+                <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>魚</label> /
+                <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
+                <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
+            詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
+            <button>登録する</button>
+        </form>
         </div>
     </div>
 
@@ -69,12 +70,13 @@
             <td>{{ $recipe->getTypeString() }}
             <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
             <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
-            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post"> @csrf <button onclick='return confirm("この料理を作れるようになりましたか？");' >完了</button></form></a>
+            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post">
+                @csrf
+                <button onclick='return confirm("この料理を作れるようになりましたか？");' class="f-button">完了</button></form></a>
             <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 @method("DELETE")
-                <button onclick='return confirm("レシピを削除しますか？");'>削除</button>
-        </form></a>
+                <button onclick='return confirm("レシピを削除しますか？");' class="d-button">削除</button></form></a>
         @endforeach
         </table>
         </div>
