@@ -1,7 +1,8 @@
-@extends('layoutcontent')
+@extends('layoutdetail')
 
 {{-- メインコンテンツ --}}
-@section('major.contets')
+@section('detail.contets')
+    <div class="header"></div>
         <h1>レシピの詳細閲覧</h1>
         @if (session('front.task_edit_success') == true)
             レシピを編集しました！！<br>
