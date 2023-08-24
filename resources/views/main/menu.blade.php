@@ -23,15 +23,11 @@
     <div class="left-blank"></div>
 
     <div class="archive-button">
-        <a href="/archive/data">
-            <button type="button">証明書</button>
-        </a><br>
+        <a href="/archive/data" class="btn01">証明書</a><br>
     </div>
 
     <div class="list-button">
-        <a href="/recipe/list" class="btn01">
-            <button type="button">登録</button>
-        </a>
+        <a href="/recipe/list" class="btn01">登録</a>
     </div>
 
     </div>

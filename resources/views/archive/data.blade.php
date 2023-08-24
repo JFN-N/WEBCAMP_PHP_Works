@@ -2,23 +2,47 @@
 
 {{-- メインコンテンツ --}}
 @section('archive.contets')
-<div class = section>
-        <div class = section-text>
-        <h1>証明書</h1>
-        <p>私は以下の種類の料理を作ることができます</p>
-        <table border="1">
+
+    <div class="header">
+        <div class="header-logo">
+        <h1>レシピマスター</h1>
+        </div>
+        <hr>
+        <div class="header-menu">
+        <a href="/main/menu">メニュー</a>　》　実績
+        </div>
+    </div>
+
+    <div class="main">
+
+    <div class="main-text">
+        <h2>あなたは以下の種類の料理を作ることができます</h2>
+    </div>
+
+    <div class="main-table">
+
+    <table border="1">
+
         <tr>
-            <th>料理の種類
-            <th>料理の数
+        <th>料理の種類
+        <th>料理の数
         </tr>
+
         @foreach ($list as $mastered_recipe)
         <tr>
-            <td>{{ $mastered_recipe->getTypeString() }}
-            <td>{{ $mastered_recipe->task_num }}
+        <td>{{ $mastered_recipe->getTypeString() }}
+        <td>{{ $mastered_recipe->task_num }}
         @endforeach
+
     </table>
+
+    </div>
+
+
+    </div>
+
     <br>
+
     <a href="/main/menu">メニューに戻る</a>
-        </div>
-</div>
+
 @endsection
