@@ -21,16 +21,13 @@
 
     <div class="regsiter-main-form">
         @if (session('front.task_register_success') == true)
-            料理を登録しました！！<br>
+            料理を登録しました<br>
         @endif
         @if (session('front.task_delete_success') == true)
-            料理を削除しました！！<br>
+            料理を削除しました<br>
         @endif
         @if (session('front.task_completed_success') == true)
-            料理をマスターしました！！<br>
-        @endif
-        @if (session('front.task_detail_forget') == true)
-            詳細を入力してください<br>
+            料理をマスターしました<br>
         @endif
 
         @if ($errors->any())
@@ -40,20 +37,46 @@
         @endforeach
         </div>
         @endif
+
+
         <form action="/recipe/list" method="post">
             @csrf
-            料理名:　<input name="name" value="{{ old('name') }}"><br>
+
+            料理名:　<input name="name" value="{{ old('name') }}" class="recipe-name"><br>
+
             種類:　<label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>肉</label> /
                 <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>魚</label> /
                 <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>野菜</label>/
                 <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>その他</label><br>
+
             詳細:<textarea name="detail">{{ old('detail') }}</textarea><br>
+
             <button>登録する</button>
         </form>
+
         </div>
     </div>
 
     <hr size="5" color="orange">
+
+
+    @if (session('front.task_register_success') == true)
+            料理を登録しました<br>
+        @endif
+        @if (session('front.task_delete_success') == true)
+            料理を削除しました<br>
+        @endif
+        @if (session('front.task_completed_success') == true)
+            料理をマスターしました<br>
+        @endif
+
+        @if ($errors->any())
+        <div>
+        @foreach ($errors->all() as $error)
+            {{ $error }}<br>
+        @endforeach
+        </div>
+        @endif
 
     <div class="list-form">
 
