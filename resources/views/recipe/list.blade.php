@@ -18,8 +18,7 @@
     <div class="register-form-logo">
     <h2>料理の登録</h2>
     </div>
-
-    <div class="regsiter-main-form">
+    <div class="session">
         @if (session('front.task_register_success') == true)
             料理を登録しました<br>
         @endif
@@ -36,9 +35,11 @@
             {{ $error }}<br>
         @endforeach
         </div>
-        @endif
-
-
+        @endif    
+    </div>
+    
+    <div class="regsiter-main-form">
+    
         <form action="/recipe/list" method="post">
             @csrf
 
@@ -58,25 +59,6 @@
     </div>
 
     <hr size="5" color="orange">
-
-
-    @if (session('front.task_register_success') == true)
-            料理を登録しました<br>
-        @endif
-        @if (session('front.task_delete_success') == true)
-            料理を削除しました<br>
-        @endif
-        @if (session('front.task_completed_success') == true)
-            料理をマスターしました<br>
-        @endif
-
-        @if ($errors->any())
-        <div>
-        @foreach ($errors->all() as $error)
-            {{ $error }}<br>
-        @endforeach
-        </div>
-        @endif
 
     <div class="list-form">
 
