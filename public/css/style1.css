@@ -7,26 +7,25 @@
     box-sizing: border-box;
   }
 
-  .main{
-    background-color: white;
+  .header{
+    background-color: green;
     width: 100%;
-    height: 500px;
+    height: 50px;
   }
 
-  .header-middle{
-    background-color: white;
-    width:100%;
-    height:130px;
+  .header-logo{
+    color: red;
+    background-color: blue;
+    width: 390px;
+    height: 40px;
+    margin-left: 10%;
   }
 
-  .form-input{
-    font-size:24px;
-  }
-
-  input.input-size{
-    width:180px;
-    lenght:150px;
-    padding: 10px;
+  .about{
+  width: 100%;
+  height:800px;
+  background-image: url(/recipemaster/public/storage/iso-republic-plated-tacos.jpg);
+  background-size: contain;
   }
 
 

@@ -6,13 +6,27 @@
 
 
     <div class="header">
-        <div class="header-color">
+        <div class="header-logo">
         <h1>レシピマスター ログイン</h1>
-        <hr size="10" color="orange">
         </div>
+
     </div>
 
-    <div class="header-middle">
+    <hr size="10" color="orange">
+
+    <div class="about">
+    </div>
+
+    <div class="sub-about">
+        <div class="sub-icon1">
+            <p></p>
+        </div>
+        <div class="sub-icon2">
+            <p></p>
+        </div>
+        <div class="sub-icon3">
+            <p></p>
+        </div>
     </div>
 
     <div class="body">

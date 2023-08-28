@@ -48,13 +48,18 @@
 
 .session{
     color: red;
-    width:300px;
+    width:968px;
     height: 100px;
     background-color: green;
     margin: 0 auto;
     text-align: center;
     padding-top:20px;
     font-size: 18px;
+}
+
+.session img{
+    max-width: 100%;
+    height: auto;
 }
 
 .regsiter-main-form{
