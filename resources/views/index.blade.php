@@ -18,31 +18,34 @@
     </div>
 
     <div class="sub-about">
-        <div class="sub-icon1">
+        <div class="sub-icon 1">
             <p></p>
         </div>
-        <div class="sub-icon2">
+        <div class="sub-icon 2">
             <p></p>
         </div>
-        <div class="sub-icon3">
+        <div class="sub-icon 3">
             <p></p>
         </div>
     </div>
 
     <div class="body">
 
-        @if ($errors->any())
+
+
+            <div class="form-main">
+
+            @if ($errors->any())
             <div>
             @foreach ($errors->all() as $error)
                 <p class=validation>{{ $error }}</p><br>
             @endforeach
             </div>
-        @endif
-        @if (session('front.user_register_success') == true)
-                ユーザーを登録しました！！<br>
-        @endif
+            @endif
+            @if (session('front.user_register_success') == true)
+                    ユーザーを登録しました！！<br>
+            @endif
 
-            <div class="form-main">
             <form action="/login" method="post">
                 <div class="form-input">
                 @csrf
