@@ -33,8 +33,8 @@
 
 
 
-            <div class="form-main">
-
+        <div class="form-main">
+            <div class="alert">
             @if ($errors->any())
             <div>
             @foreach ($errors->all() as $error)
@@ -45,7 +45,9 @@
             @if (session('front.user_register_success') == true)
                     ユーザーを登録しました！！<br>
             @endif
+            </div>
 
+            <div class="form">
             <form action="/login" method="post">
                 <div class="form-input">
                 @csrf
@@ -60,18 +62,23 @@
             </form>
             </div>
 
+            <div class="register">
+            <p>ユーザー未登録の場合は</p>
+            <p>以下から登録をお願い致します。</p><br>
+            <a href="/user/register">会員登録</a>
+            </div>
+
+        </div>
+
             <div class=guestLoginButton>
-            <form action="{{ route('login.guest') }}" method="post">
+            <p>ゲストログインはこちらから</p><br>
+            <form action="{{ route('login.guest') }}" method="post" class="btn">
                 @csrf
                 <button>ゲストログイン</button>
             </form>
             </div>
 
         <div class="footer">
-            <div class=register>
-            <p>ユーザー未登録の場合は、以下から登録をお願い致します。</p>
-            <a href="/user/register">会員登録</a>
-            </div>
         </div>
 
     </div>

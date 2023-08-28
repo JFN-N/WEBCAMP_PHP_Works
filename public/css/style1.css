@@ -30,7 +30,7 @@
 
   .sub-about{
     width: 1200px;
-    height: 350px;
+    height: 450px;
     margin: 0 auto;
     background-color: orange;
     padding-top: 20px;
@@ -48,7 +48,7 @@
 
   .body{
     width: 100%;
-    height:600px;
+    height:450px;
     background-color: gray;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
@@ -56,10 +56,38 @@
 
   .form-main{
     width: 50%;
-    height: 600px;
+  }
+
+  .alert{
+    height: 100px;
+    background-color: red;
+    text-align: center;
+  }
+
+  .form{
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .register{
+    height: 200px;
     background-color: green;
     text-align: center;
-    padding-top: 100px;
+  }
+
+  .guestLoginButton{
+    width: 50%;
+    height:450px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  .btn{
+
   }
 
 
@@ -73,5 +101,26 @@
     box-sizing: border-box;
   }
 
+  .header{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+  .sub-about{
+    width: 100%;
+    height:630px;
+    background-color: blue;
+  }
+
+  .sub-icon{
+    width: 307px;
+    height: 200px;
+    background-color: red;
+    margin:5px;
+  }
 
 }
