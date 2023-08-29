@@ -7,14 +7,14 @@
 
 .header{
   width: 100%;
-  height: 100px;
+  height: 50px;
   background-color:#F0BF4C;
 }
 
 .header-logo{
-  width: 210px;
+  width: 800px;
   height: 50px;
-  margin-left: 300px;
+  margin: 0 auto;
   padding-top: 5px;
   font-size: 14px
 }

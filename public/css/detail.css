@@ -8,9 +8,61 @@
   }
 
 .header{
-    width: 100%;
+  width: 100%;
+  height: 50px;
+  background-color:#F0BF4C;
+}
+
+.header-logo{
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 5px;
+  font-size: 14px
+}
+
+.sub-header{
+  width: 100%;
+  height:30px;
+  background-color: green;
+}
+
+.header-menu{
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.alert{
+    width:800px;
     height: 200px;
+    text-align: center;
+    padding-top: 200px;
+    background-color: green;
+    margin: auto;
+}
+
+.contents{
+    width: 100%;
+    height: 800px;
     background-color: red;
+    margin: 0 auto;
+}
+
+.name,.type{
+    width: 700px;
+    height: 80px;
+    margin: 0 auto;
+    font-size:30px;
+    background-color: blue;
+}
+
+.detail{
+    width: 700px;
+    height: 320px;
+    margin: 0 auto;
+    font-size:30px;
+    background-color: blue;
 }
 
 }
