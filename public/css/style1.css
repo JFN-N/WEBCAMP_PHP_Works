@@ -30,10 +30,9 @@
 
   .sub-about{
     width: 1200px;
-    height: 450px;
+    height: 300px;
     margin: 0 auto;
     background-color: orange;
-    padding-top: 20px;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
   }
@@ -44,6 +43,23 @@
     margin:5px;
     margin: 0 auto;
     background-color: red;
+  }
+
+  .sub-text{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+  }
+
+  .textarea{
+    width: 300px;
+    height: 150px;
+    margin:5px;
+    margin: 0 auto;
+    background-color: blue;
   }
 
   .body{

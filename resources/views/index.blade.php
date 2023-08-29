@@ -19,13 +19,19 @@
 
     <div class="sub-about">
         <div class="sub-icon 1">
-            <p></p>
         </div>
         <div class="sub-icon 2">
-            <p></p>
         </div>
         <div class="sub-icon 3">
-            <p></p>
+        </div>
+    </div>
+
+    <div class="sub-text">
+        <div class="textarea 1">
+        </div>
+        <div class="textarea 2">
+        </div>
+        <div class="textarea 3">
         </div>
     </div>
 
