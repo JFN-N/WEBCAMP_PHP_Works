@@ -10,7 +10,7 @@
 
     <div class="sub-header">
         <div class="header-menu">
-        <a href="/main/menu">メインメニュー</a>　》　料理の詳細
+        <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・一覧</a>　》料理の詳細
         </div>
     </div>
 
@@ -28,8 +28,8 @@
     </div>
 
         <hr>
-        <menu label="リンク">
-        <a href="/recipe/list">料理一覧</a><br>
-        <a href="/logout">ログアウト</a><br>
+        <menu label="リンク" class="footer">
+        <div class="back"><a href="/recipe/list">料理の登録・確認</a>に戻る</div><br>
+        <div class="logout"><a href="/logout" >ログアウト</a></div><br>
         </menu>
 @endsection
