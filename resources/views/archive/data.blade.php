@@ -8,7 +8,7 @@
         <h1>レシピマスター</h1>
         </div>
         <div class="header-menu">
-        <a href="/main/menu">メニュー</a>　》　実績
+        <a href="/main/menu">メインメニュー</a>　》　実績
         </div>
     </div>
 

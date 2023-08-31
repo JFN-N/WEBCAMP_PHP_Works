@@ -1,9 +1,18 @@
-@extends('layoutcontent')
+@extends('completed')
 
-@section('major.contets')
+@section('complete.page')
 
-        <h1>作れる料理</h1>
-        <a href="/recipe/list">登録に戻る</a><br>
+    <div class="header">
+        <div class="header-logo">
+        <h1>レシピマスター　作れる料理一覧</h1>
+        </div>
+        <div class="header-menu">
+       <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・確認</a>　》　作れる料理一覧
+        </div>
+        <hr>
+    </div>
+
+        <br>
         <table border="1">
         <tr>
             <th>料理名

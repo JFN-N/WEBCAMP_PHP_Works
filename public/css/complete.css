@@ -1,0 +1,40 @@
+@media screen and (min-width:481px) {
+	/* ここにパソコン版だけの記述 */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color:#F0BF4C;
+    }
+
+    .header-logo,.header-menu{
+        width: 900px;
+        height: 50px;
+    }
+
+    .header-logo{
+        background-color:#F0BF4C;
+    }
+
+    .header-menu{
+        background-color: white;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+
+}
