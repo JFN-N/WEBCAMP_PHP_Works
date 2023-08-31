@@ -7,17 +7,58 @@
     }
 
     .header{
-    width: 100%;
-    height: 100px;
-    background-color: #FFD200;
+        width: 100%;
+        height: 50px;
+        background-color:#F0BF4C;
     }
 
-    .header-center{
-    width:900px;
-    height: 100px;
-    background-color: white;
-    margin: 0 auto; /* 真ん中に寄せる */
+    .header-logo{
+        width: 900px;
+        height: 50px;
+        margin: 0 auto;
+        font-size: 14px;
     }
+
+    .main{
+        width: 100%;
+        height: 600px;
+    }
+
+    .main-header{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .main-form{
+        width: 800px;
+        height: 550px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .anounce{
+        width: 600px;
+        height: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding:30px;
+    }
+
+    .register-form{
+        width: 600px;
+        height:250px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .back{
+        width: 600px;
+        height:150px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
 
 }
 
