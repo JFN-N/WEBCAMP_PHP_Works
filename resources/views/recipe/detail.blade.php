@@ -14,6 +14,7 @@
         </div>
     </div>
 
+    <hr>
 
     <div class="alert">
         @if (session('front.task_edit_success') == true)

@@ -9,7 +9,6 @@
         <div class="header-logo">
         <h1>レシピマスター ログイン</h1>
         </div>
-
     </div>
 
     <hr size="10" color="orange">
@@ -28,10 +27,22 @@
 
     <div class="sub-text">
         <div class="textarea 1">
+        <p>料理名とその種類、</p>
+        <p>そして詳細を書き込んで、</p>
+        <p>内容を登録することができます。</p>
         </div>
         <div class="textarea 2">
+        <p>登録した内容を</p>
+        <p>確認や編集、</p>
+        <p>削除ができます。</p>
+        <p>料理を作れるようになれば、</p>
+        <p>登録したリストから外せます。</p>
         </div>
         <div class="textarea 3">
+        <p>作れるようになった料理は</p>
+        <p>種類ごとに分けられて</p>
+        <p>どれだけできるようになったか</p>
+        <p>証明書として確認できます。</p>
         </div>
     </div>
 

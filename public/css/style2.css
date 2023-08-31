@@ -13,10 +13,9 @@
 }
 
 .header-logo{
-    height: 300px;
-    padding-top: 5px;
-    padding-left: 300px;
-    padding-bottom: 10px;
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .body{
@@ -27,9 +26,10 @@
 
 .body-logo{
   font-size: 14px;
-  padding-top: 5px;
-  padding-left: 300px;
-  padding-bottom: 10px;
+  width: 900px;
+  height: 50px;
+  margin: 0 auto;
+
 }
 
 .button{

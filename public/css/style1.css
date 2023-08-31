@@ -16,9 +16,9 @@
   .header-logo{
     color: red;
     background-color: blue;
-    width: 390px;
+    width: 900px;
     height: 40px;
-    margin-left: 10%;
+    margin: 0 auto;
   }
 
   .about{
@@ -59,7 +59,9 @@
     height: 150px;
     margin:5px;
     margin: 0 auto;
+    padding-top: 10px;
     background-color: blue;
+    text-align: center;
   }
 
   .body{

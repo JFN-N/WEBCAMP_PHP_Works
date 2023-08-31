@@ -9,7 +9,9 @@
         </div>
     </div>
     <div class="sub-header">
-        <a href="/main/menu" class="header-main-menu">メインメニュー</a>　》　料理の登録・確認
+        <div class="sub-header-menu">
+        <a href="/main/menu" >メインメニュー</a>　》　料理の登録・確認
+        </div>
     </div>
     <hr>
 
@@ -35,11 +37,11 @@
             {{ $error }}<br>
         @endforeach
         </div>
-        @endif    
+        @endif
     </div>
-    
+
     <div class="regsiter-main-form">
-    
+
         <form action="/recipe/list" method="post">
             @csrf
 
@@ -120,7 +122,7 @@
         <div class ="footer">
         <a href="/main/menu">メニューに戻る</a>
         <menu label="リンク">
-        <a href="/logout">ログアウト</a><br>
+        <br><a href="/logout">ログアウト</a><br>
         </menu>
         </div>
 

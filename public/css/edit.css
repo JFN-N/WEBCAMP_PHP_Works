@@ -1,0 +1,86 @@
+
+@media screen and (min-width:481px) {
+	/* ここにパソコン版だけの記述 */
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header{
+    width: 100%;
+    height:50px;
+    background-color:#F0BF4C;
+    font-size: 14px;
+}
+
+.header-logo{
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.sub-header{
+    width: 100%;
+    height:50px;
+}
+
+.header-menu{
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.body{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    font-size:20px;
+}
+
+.name,.type{
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.detail{
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.edit-btn{
+    width:500px;
+    height: 80px;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+}
+
+.footer{
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width:480px) {
+	/* ここにスマホ版だけの記述 */
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+}
