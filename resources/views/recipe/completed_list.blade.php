@@ -13,7 +13,7 @@
         <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・確認</a>　》　作れる料理一覧
         </div>
     </div>
-
+    <hr>
 
         <br>
 
@@ -53,9 +53,11 @@
         @endif
         </div>
 
-        <br>
         <hr>
-        <a href="/logout">ログアウト</a><br>
-        </menu>
+        <div class="footer">
+        <a href="/logout">ログアウト</a>
+        </div>
+
+
 
 @endsection

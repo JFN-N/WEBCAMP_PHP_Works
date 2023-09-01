@@ -74,6 +74,7 @@
         <tr>
             <th>料理名
             <th>種類
+            <th colspan="4">項目
         @foreach ($list as $recipe)
         <tr>
             <td>{{ $recipe->name }}
