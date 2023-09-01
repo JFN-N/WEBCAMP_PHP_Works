@@ -16,7 +16,7 @@
 .header{
     width: 100%;
     height:50px;
-    background-color:#F0BF4C;
+    background-color:#FFD200;
     font-size: 14px;
 }
 
@@ -100,7 +100,7 @@
 
 .list-button{
     width: 100%;
-    height: 150px;
+    height: 100px;
     text-align: center;
 }
 
@@ -113,6 +113,14 @@ tr,td{
     width: 900px;
     height: 40px;
     text-align: center;
+}
+
+.complete-list-btn{
+    text-align: center;
+    width: 900px;
+    height: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 

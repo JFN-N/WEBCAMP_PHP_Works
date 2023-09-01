@@ -3,36 +3,32 @@
 {{-- メインコンテンツ --}}
 @section('main.contets')
 <div class="header">
-        <div class="header-logo">
-        <h1>レシピマスター</h1>
-        </div>
+    <div class="header-logo">
+    <h1>レシピマスター</h1>
     </div>
+</div>
 
-<div class="body">
-
-
-
-    <div class="body-logo">
-        <h1>メインメニュー</h1>
+<div class="sub-header">
+    <div class="sub-header-logo">
+    <h2>メインメニュー</h2>
     </div>
+</div>
 
-    <hr>
+<hr>
+
+<div class="main">
 
     <div class="button">
-
-    <div class="left-blank"></div>
-
-    <div class="archive-button">
-        <a href="/archive/data" class="btn01">証明書</a><br>
+    <a href="/archive/data" class="btn01">実績を見る</a><br>
     </div>
 
-    <div class="list-button">
-        <a href="/recipe/list" class="btn01">登録</a>
+    <div class="button">
+    <a href="/recipe/completed_list" class="btn01">作れる料理を見る</a>
     </div>
 
+    <div class="button">
+    <a href="/recipe/list" class="btn01">登録をする</a>
     </div>
-
-
 
 </div>
 

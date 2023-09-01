@@ -113,9 +113,12 @@
         @else
             次に進む
         @endif
-        <br>
-        <a href="/recipe/completed_list">習得一覧</a>
         </div>
+
+        <div class="complete-list-btn">
+        <a href="/recipe/completed_list">作れる料理を見る</a>
+        </div>
+
     </div>
         <br>
         <hr>

@@ -10,7 +10,7 @@
 .header{
     width: 100%;
     height:50px;
-    background-color:#F0BF4C;
+    background-color:#FFD200;
     font-size: 14px;
 }
 
@@ -34,7 +34,7 @@
 
 .body{
     width: 100%;
-    height: 600px;
+    height: 500px;
     font-size:20px;
 }
 
@@ -67,6 +67,7 @@ button{
 }
 
 .footer{
+    padding-top: 60px;
     text-align: center;
 }
 
