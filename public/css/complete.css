@@ -8,23 +8,59 @@
 
     .header{
         width: 100%;
-        height: 100px;
-        background-color:#F0BF4C;
-    }
-
-    .header-logo,.header-menu{
-        width: 900px;
         height: 50px;
+        background-color:#F0BF4C;
     }
 
     .header-logo{
-        background-color:#F0BF4C;
+        width: 900px;
+        height: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .sub-header{
+        width: 100%;
+        height: 50px;
     }
 
     .header-menu{
+        width: 900px;
+        height: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .main{
+        width: 100%;
+        height: 600px;
+        background-color: orange;
+    }
+
+    .complete-table{
+        width: 900px;
+        height: 500px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-left: 200px;
+        padding-right: 200px;
         background-color: white;
     }
 
+    table{
+    width: 500px;
+    height: 50px;
+    }
+
+    tr,td{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    }
+
+    .page-nation{
+        text-align: center;
+    }
 
 }
 

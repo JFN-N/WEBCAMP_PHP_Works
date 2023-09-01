@@ -6,23 +6,31 @@
         <div class="header-logo">
         <h1>レシピマスター　作れる料理一覧</h1>
         </div>
-        <div class="header-menu">
-       <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・確認</a>　》　作れる料理一覧
-        </div>
-        <hr>
     </div>
 
+    <div class="sub-header">
+        <div class="header-menu">
+        <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・確認</a>　》　作れる料理一覧
+        </div>
+    </div>
+
+
         <br>
+
+    <div class="main">
+        <div class="complete-table">
         <table border="1">
         <tr>
             <th>料理名
             <th>種類
-@foreach ($list as $complete_recipe)
+    @foreach ($list as $complete_recipe)
         <tr>
             <td>{{ $complete_recipe->name }}
             <td>{{ $complete_recipe->getTypeString() }}
-@endforeach
+    @endforeach
         </table>
+        </div>
+        <div class="page-nation">
         <!-- ページネーション -->
         {{-- {{ $list->links() }} --}}
         現在 {{ $list->currentPage() }} ページ目<br>
@@ -43,6 +51,8 @@
         @else
             次に進む
         @endif
+        </div>
+
         <br>
         <hr>
         <a href="/logout">ログアウト</a><br>
