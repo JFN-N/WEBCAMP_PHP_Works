@@ -43,6 +43,6 @@ class UserRegisterController extends Controller
 
 
         //return redirect('/login');
-        return view('index');
+        return view('/user/login');
     }
 }
