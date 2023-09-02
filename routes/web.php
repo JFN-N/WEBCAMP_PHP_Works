@@ -8,6 +8,7 @@ use App\Http\Controllers\ArchiveController;
 use App\Http\Controllers\RecipeController;
 use App\Http\Controllers\CompletedRecipeController;
 use App\Http\Controllers\UserRegisterController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,9 @@ Route::post('/guest', [AuthController::class, 'guestLogin'])->name('login.guest'
 Route::prefix('/user')->group(function () {
     Route::get('/register', [UserRegisterController::class, 'index'])->name('front.user.register');
     Route::post('/register', [UserRegisterController::class, 'register']);
+
+    Route::get('/login', [LoginController::class, 'index'])->name('front.user.login');
+    Route::post('/login', [LoginController::class, 'login']);
 });
 
 Route::get('/main/menu', [MainController::class, 'index']);
