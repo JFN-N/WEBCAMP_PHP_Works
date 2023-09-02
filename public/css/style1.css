@@ -14,11 +14,11 @@
   }
 
   .header-logo{
-    color: red;
     background-color: blue;
     width: 900px;
-    height: 40px;
-    margin: 0 auto;
+    height: 50px;
+    padding-top: 5px;
+    margin: 0 300px;
   }
 
   .about{

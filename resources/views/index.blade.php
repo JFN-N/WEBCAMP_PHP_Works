@@ -7,11 +7,17 @@
 
     <div class="header">
         <div class="header-logo">
-        <h1>レシピマスター ログイン</h1>
+        <h1>レシピマスター</h1>
         </div>
     </div>
 
     <hr size="10" color="orange">
+
+    <div class="headline">
+        <div class="">
+
+        </div>
+    </div>
 
     <div class="about">
     </div>
