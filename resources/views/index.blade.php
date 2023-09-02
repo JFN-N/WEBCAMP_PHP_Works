@@ -14,8 +14,16 @@
     <hr size="10" color="orange">
 
     <div class="headline">
-        <div class="">
+        <div class="headline-txt">
+        <h2>作れる料理が増えるアプリ</h2>
+        </div>
 
+        <div class=guestLoginButton1>
+            <p>ゲストログインはこちらから</p>
+            <form action="{{ route('login.guest') }}" method="post" class="btn">
+            @csrf
+            <button class="btn">ゲストログイン</button>
+            </form>
         </div>
     </div>
 
@@ -92,16 +100,13 @@
 
         </div>
 
-            <div class=guestLoginButton>
+            <div class=guestLoginButton2>
             <p>ゲストログインはこちらから</p><br>
             <form action="{{ route('login.guest') }}" method="post" class="btn">
                 @csrf
                 <button>ゲストログイン</button>
             </form>
             </div>
-
-        <div class="footer">
-        </div>
 
     </div>
 

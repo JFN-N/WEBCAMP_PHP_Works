@@ -21,6 +21,30 @@
     margin: 0 300px;
   }
 
+  .headline{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+  }
+
+  .headline-txt{
+    width: 500px;
+    height: 50px;
+    background-color: pink;
+  }
+
+  .guestLoginButton1{
+    width: 400px;
+    height:70px;
+    background-color: gray;
+    font-size: 20px;
+  }
+
+  .btn01{
+    width: 100px;
+    height: 50px;
+  }
+
   .about{
   width: 100%;
   height:800px;
@@ -95,17 +119,13 @@
     text-align: center;
   }
 
-  .guestLoginButton{
+  .guestLoginButton2{
     width: 50%;
     height:450px;
     background-color: gray;
     font-size: 20px;
     text-align: center;
     padding-top: 200px;
-  }
-
-  .btn{
-
   }
 
 
