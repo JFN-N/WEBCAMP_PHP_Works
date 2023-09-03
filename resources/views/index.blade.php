@@ -22,20 +22,24 @@
             <p>ゲストログインはこちらから</p>
             <form action="{{ route('login.guest') }}" method="post" class="btn">
             @csrf
-            <button class="btn">ゲストログイン</button>
+            <button class="btn01">ゲストログイン</button>
             </form>
         </div>
     </div>
 
     <div class="about">
+
     </div>
 
     <div class="sub-about">
-        <div class="sub-icon 1">
+        <div class="iconbox">
+        <div class="sub-icon_1">
         </div>
-        <div class="sub-icon 2">
         </div>
-        <div class="sub-icon 3">
+
+        <div class="sub-icon_2">
+        </div>
+        <div class="sub-icon_3">
         </div>
     </div>
 
@@ -60,8 +64,6 @@
     </div>
 
     <div class="body">
-
-
 
         <div class="form-main">
             <div class="alert">
@@ -106,6 +108,7 @@
                 @csrf
                 <button>ゲストログイン</button>
             </form>
+            <a href="/user/login">ログインページに行く</a>
             </div>
 
     </div>

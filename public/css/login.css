@@ -1,0 +1,144 @@
+
+@media screen and (min-width:481px) {
+	/* ここにパソコン版だけの記述 */
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+  }
+
+  .header-logo{
+    background-color: blue;
+    width: 900px;
+    height: 50px;
+    padding-top: 5px;
+    margin: 0 300px;
+  }
+
+  .headline{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+  }
+
+  .headline-txt{
+    width: 500px;
+    height: 50px;
+    background-color: pink;
+  }
+
+  .guestLoginButton1{
+    width: 400px;
+    height:70px;
+    background-color: gray;
+    font-size: 20px;
+  }
+
+  .btn01{
+    width: 100px;
+    height: 50px;
+  }
+
+  .about{
+  width: 100%;
+  height:800px;
+  background-image: url(/recipemaster/public/storage/iso-republic-plated-tacos.jpg);
+  background-size: contain;
+  }
+
+  .sub-about{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+  }
+
+  .sub-icon{
+    width: 300px;
+    height: 300px;
+    margin:5px;
+    margin: 0 auto;
+    background-color: red;
+  }
+
+  .sub-text{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+  }
+
+  .textarea{
+    width: 300px;
+    height: 150px;
+    margin:5px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: blue;
+    text-align: center;
+  }
+
+  .body{
+    width: 100%;
+    height:450px;
+    background-color: gray;
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+  }
+
+  .form-main{
+    width: 50%;
+  }
+
+  .alert{
+    height: 100px;
+    background-color: red;
+    text-align: center;
+  }
+
+  .form{
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .register{
+    height: 200px;
+    background-color: green;
+    text-align: center;
+  }
+
+  .guestLoginButton2{
+    width: 50%;
+    height:450px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+
+}
+
+@media screen and (max-width:480px) {
+	/* ここにスマホ版だけの記述 */
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+}

@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('lologin')
 
 {{-- メインコンテンツ --}}
-@section('contets')
+@section('loginbody')
 <div class=main>
 
 
@@ -12,8 +12,6 @@
     </div>
 
     <hr size="10" color="orange">
-
-
 
     <div class="body">
 
