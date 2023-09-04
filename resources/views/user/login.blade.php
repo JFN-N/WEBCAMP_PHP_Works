@@ -7,7 +7,7 @@
 
     <div class="header">
         <div class="header-logo">
-        <h1>レシピマスター</h1>
+        <h1>レシピマスター　ログイン</h1>
         </div>
     </div>
 
