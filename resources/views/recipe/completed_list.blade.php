@@ -55,7 +55,9 @@
 
         <hr>
         <div class="footer">
-        <a href="/logout">ログアウト</a>
+        <a href="/main/menu">メインメニューに戻る</a>
+        <br><br><a href="/recipe/list">料理の登録・確認に戻る</a>
+        <br><br><a href="/logout">ログアウト</a>
         </div>
 
 

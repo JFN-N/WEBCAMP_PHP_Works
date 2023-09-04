@@ -20,17 +20,9 @@
     margin: 0 300px;
   }
 
-  .guestLoginButton1{
-    width: 400px;
-    height:70px;
-    background-color: gray;
-    font-size: 20px;
-  }
-
   .body{
     width: 100%;
     height:900px;
-    background-color: gray;
      /*display: flex;*//* Flexboxを設定 */
      /*flex-wrap: wrap;*//* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
   }
@@ -42,7 +34,6 @@
   .alert{
     width: 100%;
     height: 200px;
-    background-color: red;
     font-size: 18px;
     text-align: center;
     padding: 40px;
@@ -51,22 +42,22 @@
   .form{
     width: 100%;
     height: 300px;
-    background-color: blue;
     text-align: center;
     padding-top: 10px;
+    font-size: 18px;
   }
 
   .register{
     height: 200px;
-    background-color: green;
     text-align: center;
     padding: 40px;
+    font-size: 18px;
+    background-color: orange;
   }
 
   .guestLoginButton{
     width: 100%;
     height:200px;
-    background-color: gray;
     font-size: 20px;
     text-align: center;
     padding: 30px;
@@ -84,6 +75,13 @@
     font-size: 16px;
     padding: 10px;
     text-align: center;
+  }
+
+  .footer{
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   padding: 20px;
   }
 
 }

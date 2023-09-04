@@ -65,5 +65,11 @@
 
     </div>
 
+    <hr>
+
+    <div class="footer">
+        <a href="/">トップページに戻る</a>
+    </div>
+
 </div>
 @endsection

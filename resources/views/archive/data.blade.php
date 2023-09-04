@@ -46,7 +46,7 @@
     <br>
     <hr>
     <div class="footer">
-        <a href="/main/menu">メニューに戻る</a>
+        <a href="/main/menu">メインメニューに戻る</a>
     </div>
 
 
