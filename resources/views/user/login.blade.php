@@ -41,9 +41,10 @@
                 <input name="password" type="password" class="input-size"><br>
                 </div>
                 <div class="form-button">
-                <button>ログイン</button>
+                <br><button class="btn01">ログイン</button>
                 </div>
             </form>
+            </div>
             </div>
 
             <div class="register">
@@ -52,13 +53,13 @@
             <a href="/user/register">会員登録</a>
             </div>
 
-        </div>
+
 
             <div class=guestLoginButton>
             <p>ゲストログインはこちらから</p><br>
             <form action="{{ route('login.guest') }}" method="post" class="btn">
                 @csrf
-                <button>ゲストログイン</button>
+                <button class="btn01">ゲストログイン</button>
             </form>
             </div>
 

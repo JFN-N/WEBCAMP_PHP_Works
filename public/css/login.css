@@ -20,18 +20,6 @@
     margin: 0 300px;
   }
 
-  .headline{
-    width: 100%;
-    height: 400px;
-    background-color: green;
-  }
-
-  .headline-txt{
-    width: 500px;
-    height: 50px;
-    background-color: pink;
-  }
-
   .guestLoginButton1{
     width: 400px;
     height:70px;
@@ -39,67 +27,20 @@
     font-size: 20px;
   }
 
-  .btn01{
-    width: 100px;
-    height: 50px;
-  }
-
-  .about{
-  width: 100%;
-  height:800px;
-  background-image: url(/recipemaster/public/storage/iso-republic-plated-tacos.jpg);
-  background-size: contain;
-  }
-
-  .sub-about{
-    width: 1200px;
-    height: 300px;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex; /* Flexboxを設定 */
-    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-  }
-
-  .sub-icon{
-    width: 300px;
-    height: 300px;
-    margin:5px;
-    margin: 0 auto;
-    background-color: red;
-  }
-
-  .sub-text{
-    width: 1200px;
-    height: 200px;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex; /* Flexboxを設定 */
-    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-  }
-
-  .textarea{
-    width: 300px;
-    height: 150px;
-    margin:5px;
-    margin: 0 auto;
-    padding-top: 10px;
-    background-color: blue;
-    text-align: center;
-  }
-
   .body{
     width: 100%;
-    height:600px;
+    height:900px;
     background-color: gray;
-    display: flex; /* Flexboxを設定 */
-    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+     /*display: flex;*//* Flexboxを設定 */
+     /*flex-wrap: wrap;*//* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
   }
 
   .form-main{
-    width: 50%;
+    width: 100%;
   }
 
   .alert{
+    width: 100%;
     height: 200px;
     background-color: red;
     font-size: 18px;
@@ -108,7 +49,8 @@
   }
 
   .form{
-    height: 200px;
+    width: 100%;
+    height: 300px;
     background-color: blue;
     text-align: center;
     padding-top: 10px;
@@ -118,17 +60,31 @@
     height: 200px;
     background-color: green;
     text-align: center;
+    padding: 40px;
   }
 
-  .guestLoginButton2{
-    width: 50%;
-    height:450px;
+  .guestLoginButton{
+    width: 100%;
+    height:200px;
     background-color: gray;
     font-size: 20px;
     text-align: center;
-    padding-top: 200px;
+    padding: 30px;
   }
 
+  .btn01{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .input-size{
+    width: 600px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
 
 }
 
