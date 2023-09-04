@@ -29,8 +29,9 @@
     </div>
 
         <hr>
-        <menu label="リンク" class="footer">
-        <div class="back"><a href="/recipe/list">料理の登録・確認</a>に戻る</div><br>
-        <div class="logout"><a href="/logout" >ログアウト</a></div><br>
-        </menu>
+        <div class="footer">
+        <a href="/main/menu">メインメニューに戻る</a>
+        <br><br><a href="/recipe/list">料理の登録・確認に戻る</a>
+        <br><br><a href="/logout">ログアウト</a>
+        </div>
 @endsection
