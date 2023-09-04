@@ -74,6 +74,8 @@
         </div>
     </div>
 
+    <hr size="10" color="black">
+
     <div class="body">
 
     <div class="box1">
