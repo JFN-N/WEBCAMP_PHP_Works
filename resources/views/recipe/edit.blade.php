@@ -36,7 +36,7 @@
                     </div>
                     <br>
 
-                <div class="detail">料理の詳細:<textarea name="detail">{{ old('detail') ?? $recipe->detail }}</textarea></div><br>
+                <div class="detail">料理の詳細:<br><textarea name="detail">{{ old('detail') ?? $recipe->detail }}</textarea></div><br>
 
                 <div class="edit-btn"><button>編集完了</button></div>
 

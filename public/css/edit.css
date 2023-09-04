@@ -71,6 +71,13 @@ button{
     text-align: center;
 }
 
+textarea{
+ resize: none;
+ width: 600px;
+ height: 300px;
+ font-size: 30px;
+}
+
 }
 
 @media screen and (max-width:480px) {
