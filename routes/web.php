@@ -57,6 +57,7 @@ Route::middleware(['auth'])->group(function () {
     });
     // 完了タスクリスト
     Route::get('/recipe/completed_list', [CompletedRecipeController::class, 'list']);
+    Route::get('/recipe/completed_detail', [CompletedRecipeController::class, 'detail']);
     //
     Route::get('/logout', [AuthController::class, 'logout']);
 });

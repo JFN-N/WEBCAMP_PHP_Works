@@ -16,6 +16,9 @@ class CompletedRecipeController extends Controller
                      ->orderBy('type');
     }
 
+
+
+
     /**
      * タスク一覧ページ を表示する
      *
@@ -29,6 +32,16 @@ class CompletedRecipeController extends Controller
         // 一覧の取得
         $list = $this->getListBuilder()
                      ->paginate($per_page);
+
+    /**
+     * タスクの詳細閲覧
+     */
+    public function detail($completed_recipe_id)
+    {
+        //
+        return $this->singleTaskRender($completed_recipe_id, 'recipe.completed_detail');
+    }
+
 /*
 $sql = $this->getListBuilder()
             ->toSql();
