@@ -42,36 +42,34 @@
 
         <div class="sub-icon_1">
         <img src='{{ asset('../storage/register.jpeg') }}' width="200px" height="200px" class="icon1">
-        </div>
-
-        <div class="sub-icon_2">
-        <img src='{{ asset('../storage/list.jpeg') }}' width="200px" height="200px" class="icon2">
-        </div>
-
-        <div class="sub-icon_3">
-        <img src='{{ asset('../storage/graph.jpeg') }}' width="200px" height="200px" class="icon3">
-        </div>
-
-    </div>
-
-    <div class="sub-text">
-        <div class="textarea_1" border="5">
+        <div class="text01">
         <p>料理名とその種類、</p>
         <p>そして詳細を書き込んで、</p>
         <p>内容を登録することができます。</p>
         </div>
-        <div class="textarea_2" border="5">
+        </div>
+
+
+        <div class="sub-icon_2">
+        <img src='{{ asset('../storage/list.jpeg') }}' width="200px" height="200px" class="icon2">
+        <div class="text01">
         <p>登録した内容を確認や編集、</p>
         <p>そして削除ができます。</p>
         <p>料理を作れるようになれば、</p>
         <p>登録したリストから外せます。</p>
         </div>
-        <div class="textarea_3" border="5">
+        </div>
+
+        <div class="sub-icon_3">
+        <img src='{{ asset('../storage/graph.jpeg') }}' width="200px" height="200px" class="icon3">
+        <div class="text01">
         <p>作れるようになった料理は</p>
         <p>種類ごとに分けられて、</p>
         <p>どれだけできるようになったか</p>
         <p>証明書として確認できます。</p>
         </div>
+        </div>
+
     </div>
 
     <hr size="10" color="black">
