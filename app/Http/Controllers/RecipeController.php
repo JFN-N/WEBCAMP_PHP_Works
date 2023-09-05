@@ -23,7 +23,7 @@ class RecipeController extends Controller
     public function list()
     {
         // 1Page辺りの表示アイテム数を設定
-        $per_page = 5;
+        $per_page = 4;
 
         // 一覧の取得
         $list = $this->getListBuilder()

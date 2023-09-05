@@ -36,12 +36,14 @@ class CompletedRecipeController extends Controller
     /**
      * タスクの詳細閲覧
      */
+
+    /*
     public function detail($completed_recipe_id)
     {
         //
         return $this->singleTaskRender($completed_recipe_id, 'recipe.completed_detail');
     }
-
+    */
 /*
 $sql = $this->getListBuilder()
             ->toSql();
