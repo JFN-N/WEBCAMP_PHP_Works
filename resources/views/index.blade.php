@@ -6,12 +6,16 @@
 
 
     <div class="header">
-        <div class="header-logo">
-        <h1>レシピマスター</h1>
-        </div>
-    </div>
+        <div class="header01">
+            <div class="header-logo">
+            <i class="fa-solid fa-pizza-slice fa-lg logo"></i>
+            </div>
+            <div class="header-text">
+            <h1>レシピマスター</h1>
+            </div>
+        </dov>
 
-    <hr size="10" color="orange">
+    </div>
 
     <div class="headline">
         <div class="headline-txt">
