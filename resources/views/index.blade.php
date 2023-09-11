@@ -6,15 +6,16 @@
 
 
     <div class="header">
-        <div class="header01">
-            <div class="header-logo">
-            <i class="fa-solid fa-pizza-slice fa-lg logo"></i>
-            </div>
-            <div class="header-text">
-            <h1>レシピマスター</h1>
-            </div>
-        </dov>
+        <div class="header1">
 
+        </div>
+        <div class="header2">
+        </div>
+        <div class="header3">
+            <div class="sub1"></div>
+            <div class="sub2"></div>
+            <div class="sub3"></div>
+        </div>
     </div>
 
     <div class="headline">
