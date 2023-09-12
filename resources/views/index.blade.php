@@ -28,9 +28,6 @@
     </div>
 
     <div class="headline">
-        <div class="headline-txt">
-        <h2>作れる料理が増えるアプリ</h2>
-        </div>
 
         <div class="headline-btn">
         <div class="login-btn">
@@ -49,7 +46,13 @@
     </div>
 
     <div class="about">
-
+        <div class="about-01">
+            <h2>レシピマスター</h2>
+            <p>作れる料理を増やせるアプリ</p>
+            <form action="{{ route('login.guest') }}" method="post" class="btn">
+            @csrf
+            <button class="btn01">ゲストログイン</button>
+        </div>
     </div>
 
     <div class="sub-about">
