@@ -134,16 +134,16 @@
   .ftxt-box{
     width: 400px;
     height: 100px;
-    background-color: red;
+    background-color: rgb(242,246,249);
     margin: 0 50px;
     text-align: center;
-    color: green;
+    color: #52A0A8;
   }
 
   .sc{
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-color: rgb(242,246,249);
     margin: 0 50px;
   }
 
