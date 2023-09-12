@@ -101,62 +101,50 @@
   background-image: url(../storage/iso-republic-plated-tacos.jpg);
   background-size: cover;
   color: #5CADB2;
-  }
-
-  .sub-about{
-    /*width: 1200px;*/
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex; /* Flexboxを設定 */
-    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-  }
-
-  .sub-icon_1,.sub-icon_2,.sub-icon_3{
-    width: 300px;
-    height: 600px;
-    padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    font-size: 18px;
-    border:1px solid #333;
-
-  }
-
-  .icon1,.icon2,.icon3{
-    margin: 50px;
-    padding: 10px;
-    background-color: orange;
-  }
-
-  .sub-text{
-    /*width: 1200px;*/
-    width: 100%;
-    height: 200px;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex; /* Flexboxを設定 */
-    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-  }
-
-  .textarea_1,.textarea_2,.textarea_3{
-    width: 300px;
-    height: 150px;
-    margin:5px;
-    margin: 0 auto;
-    padding-top: 10px;
-    background-color: orange;
-    text-align: center;
+  padding-left: 300px;
+  padding-top: 100px;
   }
 
   .body{
+    /*width: 1200px;*/
     width: 100%;
-    height:450px;
-    background-color: orange;
+    height: 600px;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+    padding: 0 5px;
+  }
+
+  .B1,.B2,.B3{
+    width: 500px;
+    height: 600px;
+  }
+
+  .B1{
+    background-color: orange;
+  }
+
+  .B2{
+    background-color: blue;
+  }
+
+  .B3{
+    background-color: green;
+  }
+
+  .ftxt-box{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    margin: 0 50px;
+    text-align: center;
+    color: green;
+  }
+
+  .sc{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 0 50px;
   }
 
   .box1{
@@ -224,7 +212,39 @@
     border:3px solid #333
   }
 
+  .about-01{
+    width: 300px;
+    height: 180px;
+    background-color: green;
+    text-align: center;
+    padding-top: 20px;
+  }
 
+  .btn02{
+    width: 130px;
+    height: 50px;
+    background-color: #D9594B;
+    color: white;
+    border-radius:10px;
+    font-size: 14px;
+  }
+
+  .about-001{
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+  }
+
+  .about-0001{
+    width: 150px;
+    height: 100px;
+    padding: 30px;
+  }
+
+  .about-0002{
+    width: 150px;
+    height: 100px;
+    padding-top: 20px;
+  }
 
 }
 

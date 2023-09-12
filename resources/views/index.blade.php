@@ -49,44 +49,39 @@
         <div class="about-01">
             <h1>レシピマスター</h1>
             <p>作れる料理を増やせるアプリ</p>
-            <form action="{{ route('login.guest') }}" method="post" class="btn">
-            @csrf
-            <button class="btn01">ゲストログイン</button>
+            <div class="about-001">
+                <div class="about-0001">
+                <a href="/user/login">ログイン</a>
+                </div>
+
+                <div class="about-0002">
+                <form action="{{ route('login.guest') }}" method="post" class="btn">
+                @csrf
+                <button class="btn02">ゲストログイン</button>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="sub-about">
+    <div class="body">
+        <div class="B1">
+        <div class="ftxt-box">
+            <h2>登録機能</h2>
+        </div>
+        <div class="sc"></div>
+        </div>
+        <div class="B2">
+        <div class="ftxt-box">
 
-        <div class="sub-icon_1">
-        <img src='{{ asset('../storage/register.jpeg') }}' width="200px" height="200px" class="icon1">
-        <div class="text01">
-        <p>料理名とその種類、</p>
-        <p>そして詳細を書き込んで、</p>
-        <p>内容を登録することができます。</p>
         </div>
+        <div class="sc"></div>
         </div>
+        <div class="B3">
+        <div class="ftxt-box">
 
-
-        <div class="sub-icon_2">
-        <img src='{{ asset('../storage/list.jpeg') }}' width="200px" height="200px" class="icon2">
-        <div class="text01">
-        <p>登録した内容を確認や編集、</p>
-        <p>そして削除ができます。</p>
-        <p>料理を作れるようになれば、</p>
-        <p>登録したリストから外せます。</p>
         </div>
+        <div class="sc"></div>
         </div>
-
-        <div class="sub-icon_3">
-        <img src='{{ asset('../storage/graph.jpeg') }}' width="200px" height="200px" class="icon3">
-        <div class="text01">
-        <p>作れるようになった料理は</p>
-        <p>種類ごとに分けられて、</p>
-        <p>どれだけできるようになったか</p>
-        <p>証明書として確認できます。</p>
-        </div>
-        </div>
-
     </div>
 
 
