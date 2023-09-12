@@ -47,7 +47,7 @@
 
     <div class="about">
         <div class="about-01">
-            <h2>レシピマスター</h2>
+            <h1>レシピマスター</h1>
             <p>作れる料理を増やせるアプリ</p>
             <form action="{{ route('login.guest') }}" method="post" class="btn">
             @csrf
@@ -89,26 +89,15 @@
 
     </div>
 
-    <hr size="10" color="black">
 
-    <div class="body">
 
-    <div class="box1">
-        <div class="lp-page">
-            <h3>ログインはこちらから</h3><br>
-            <a href="/user/login" class="lg-btn">ログイン</a>
-        </div>
+
+
+    <div class="lp-page">
+        <h3>さあ、はじめよう</h3><br>
+        <a href="/user/login" class="lg-btn">ログイン</a>
     </div>
 
-    <div class="box2">
-            <div class="guestLoginButton2" border="3">
-            <h3>ゲストログインはこちらから</h3><br>
-            <form action="{{ route('login.guest') }}" method="post" class="btn">
-                @csrf
-                <button class="btn01">ゲストログイン</button>
-            </form>
-            </div>
-    </div>
 
     <!--
     <div class="login-btn-ft">
