@@ -10,11 +10,20 @@
 
         </div>
         <div class="header2">
+            <h1>レシピマスター</h1>
         </div>
         <div class="header3">
-            <div class="sub1"></div>
-            <div class="sub2"></div>
-            <div class="sub3"></div>
+            <div class="sub1">
+                <a href="/user/login">ログイン</a>
+            </div>
+            <div class="sub2">
+                <a href="/user/login">ユーザー登録</a>
+            </div>
+            <div class="sub3">
+            <form action="{{ route('login.guest') }}" method="post" class="btn">
+            @csrf
+            <button class="btn01">ゲストログイン</button>
+            </div>
         </div>
     </div>
 
