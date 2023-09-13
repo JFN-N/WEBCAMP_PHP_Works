@@ -51,7 +51,7 @@
             <p>作れる料理を増やせるアプリ</p>
             <div class="about-001">
                 <div class="about-0001">
-                <a href="/user/login">ログイン</a>
+                <a href="/user/login" class="lgbtn01">ログイン</a>
                 </div>
 
                 <div class="about-0002">
@@ -72,13 +72,13 @@
         </div>
         <div class="B2">
         <div class="ftxt-box">
-
+            <h2>リスト機能</h2>
         </div>
         <div class="sc"></div>
         </div>
         <div class="B3">
         <div class="ftxt-box">
-
+            <h2>実績確認機能</h2>
         </div>
         <div class="sc"></div>
         </div>
