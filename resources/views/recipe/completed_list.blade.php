@@ -19,7 +19,10 @@
 
     <div class="main">
         <div class="complete-table">
-        <table border="1">
+
+
+        <table border="0">
+
         <tr>
             <th>料理名
             <th>種類
@@ -48,7 +51,7 @@
             &nbsp;
         @endif
 
-        |
+        &nbsp;
         <!--
         @if ($list->previousPageUrl() !== null)
             <a href="{{ $list->previousPageUrl() }}">前に戻る</a>
@@ -63,7 +66,7 @@
             &nbsp;
         @endif
 
-        |
+        &nbsp;
         @if ($list->nextPageUrl() !== null)
             <a href="{{ $list->nextPageUrl() }}">≫</a>
         @else

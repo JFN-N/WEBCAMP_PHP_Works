@@ -65,22 +65,36 @@
 
     <div class="body">
         <div class="B1">
-        <div class="ftxt-box">
+            <div class="ftxt-box">
             <h2>登録機能</h2>
+            </div>
+            <div class="sc"></div>
+            <div class="summary">
+            <p>名称、種類、そして詳細を入力して</p>
+            <p>登録を行います</p>
+            </div>
         </div>
-        <div class="sc"></div>
-        </div>
+
         <div class="B2">
         <div class="ftxt-box">
             <h2>リスト機能</h2>
         </div>
         <div class="sc"></div>
+        <div class="summary">
+            <p>名称、種類、そして詳細を入力して</p>
+            <p>登録を行います</p>
+            </div>
         </div>
+
         <div class="B3">
         <div class="ftxt-box">
             <h2>実績確認機能</h2>
         </div>
         <div class="sc"></div>
+        <div class="summary">
+            <p>名称、種類、そして詳細を入力して</p>
+            <p>登録を行います</p>
+            </div>
         </div>
     </div>
 
@@ -89,8 +103,12 @@
 
 
     <div class="lp-page">
-        <h3>さあ、はじめよう</h3><br>
-        <a href="/user/login" class="lg-btn">ログイン</a>
+        <h1>さあ、はじめよう</h1><br>
+        <a href="/user/login" class="lgbtn02">ログイン</a>
+    </div>
+
+    <div class="footer">
+        <h3>© SONNANONAI Inc All Rights Reserved.</h3>
     </div>
 
 
