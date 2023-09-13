@@ -27,24 +27,6 @@
         </div>
     </div>
 
-    <div class="headline">
-
-        <div class="headline-btn">
-        <div class="login-btn">
-            <p>ログインページはこちらから</p>
-            <a href="/user/login">ログインページへ</a>
-        </div>
-
-        <div class=guestLoginButton1>
-            <p>ゲストログインはこちらから</p>
-            <form action="{{ route('login.guest') }}" method="post" class="btn">
-            @csrf
-            <button class="btn01">ゲストログイン</button>
-            </form>
-        </div>
-        </div>
-    </div>
-
     <div class="about">
         <div class="about-01">
             <h1>レシピマスター</h1>
