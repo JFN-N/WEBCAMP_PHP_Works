@@ -10,7 +10,7 @@
 
         </div>
         <div class="header2">
-            <h1>レシピマスター</h1>
+            <h2>レシピマスター</h2>
         </div>
         <div class="header3">
             <div class="sub1">

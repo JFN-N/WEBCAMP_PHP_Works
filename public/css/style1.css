@@ -7,6 +7,13 @@
     box-sizing: border-box;
   }
 
+  a{
+    text-decoration: none;
+    color: #52A0A8;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
   .header{
     background-color: #F1F5F8;
     width: 100%;
@@ -29,7 +36,6 @@
   }
 
   .header3{
-    background-color: orange;
     height: 90px;
     width: 700px;
     display: flex; /* Flexboxを設定 */
@@ -40,7 +46,6 @@
   .sub1{
     width: 200px;
     height: 90px;
-    background-color:blue;
   }
 
   .sub2{
