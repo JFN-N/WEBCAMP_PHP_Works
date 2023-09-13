@@ -19,7 +19,7 @@
     background-color: green;
     height: 90px;
     width: 90px;
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .header2{
@@ -31,10 +31,10 @@
   .header3{
     background-color: orange;
     height: 90px;
-    width: 600px;
+    width: 700px;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-    margin-left: 400px;
+    margin-left: 410px;
   }
 
   .sub1{
@@ -51,9 +51,14 @@
 
   .sub3{
     height: 90px;
-    width: 200px;
+    width: 300px;
     background-color: red;
   }
+
+
+.hdb1{
+
+}
 
   .headline-txt{
     width: 500px;
@@ -111,7 +116,7 @@
     height: 700px;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-    padding: 0 5px;
+    padding: 0px 5px;
   }
 
   .B1,.B2,.B3{
@@ -157,46 +162,6 @@
     margin: 0 70px;
   }
 
-  .box1{
-    width: 50%;
-    height: 450px;
-  }
-
-  .box2{
-    width: 50%;
-    height: 450px;
-    /*background-color: blue;*/
-  }
-
-  .form-main{
-    width: 50%;
-  }
-
-  .alert{
-    height: 100px;
-    background-color: red;
-    text-align: center;
-  }
-
-  .form{
-    height: 150px;
-    background-color: blue;
-    text-align: center;
-    padding-top: 0px;
-  }
-
-  .register{
-    height: 200px;
-    background-color: green;
-    text-align: center;
-  }
-
-  .login-btn-ft{
-    width: 50%;
-    height:450px;
-    background-color: orange;
-  }
-
   .lp-page{
     width: 400px;
     height: 200px;
@@ -204,21 +169,6 @@
     padding: 0px 40px;
     margin: 0px 550px;
     font-size: 16px;
-  }
-
-  .lg-btn{
-    font-size: 28px;
-  }
-
-  .guestLoginButton2{
-    width: 400px;
-    height: 200px;
-    /*background-color: green;*/
-    text-align: center;
-    padding: 40px;
-    margin: 80px auto;
-    font-size: 16px;
-    border:3px solid #333
   }
 
   .about-01{

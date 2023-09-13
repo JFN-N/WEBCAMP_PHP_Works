@@ -14,7 +14,7 @@
         </div>
         <div class="header3">
             <div class="sub1">
-                <a href="/user/login">ログイン</a>
+                <a href="/user/login" class="hdb1">ログイン</a>
             </div>
             <div class="sub2">
                 <a href="/user/login">ユーザー登録</a>
