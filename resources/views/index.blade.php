@@ -7,7 +7,7 @@
 
     <div class="header">
         <div class="header1">
-
+            <i class="fa-solid fa-pizza-slice fa-2x"></i>
         </div>
         <div class="header2">
             <h2>レシピマスター</h2>
