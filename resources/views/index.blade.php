@@ -6,40 +6,38 @@
 
 
     <div class="header">
+
         <div class="header1">
-            <i class="fa-solid fa-pizza-slice fa-2x"></i>
+            <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
         </div>
         <div class="header2">
-            <h2>レシピマスター</h2>
-        </div>
-        <div class="header3">
             <div class="sub1">
-                <a href="/user/login" class="hdb1"><i class="fa-solid fa-pizza-slice"></i>&nbsp;ログイン</a>
+                <a href="/user/login" class="hdb1"><i class="fa-solid fa-volume-high"></i>&nbsp;ログイン</a>
             </div>
             <div class="sub2">
-                <a href="/user/login">ユーザー登録</a>
+                <a href="/user/login"><i class="fa-solid fa-user-plus"></i>&nbsp;ユーザー登録</a>
             </div>
             <div class="sub3">
             <form action="{{ route('login.guest') }}" method="post" class="btn">
             @csrf
-            <button class="btn01">ゲストログイン</button>
+            <button class="btn01"><i class="fa-solid fa-user-minus"></i>&nbsp;ゲストログイン</button>
             </div>
         </div>
     </div>
 
     <div class="about">
         <div class="about-01">
-            <h1>レシピマスター</h1>
+            <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
             <p>作れる料理を増やせるアプリ</p>
             <div class="about-001">
                 <div class="about-0001">
-                <a href="/user/login" class="lgbtn01">ログイン</a>
+                <a href="/user/login" class="lgbtn01"><i class="fa-solid fa-volume-high"></i>&nbsp;ログイン</a>
                 </div>
 
                 <div class="about-0002">
                 <form action="{{ route('login.guest') }}" method="post" class="btn">
                 @csrf
-                <button class="btn02">ゲストログイン</button>
+                <button class="btn02"><i class="fa-solid fa-user-minus"></i>&nbsp;ゲストログイン</button>
                 </div>
             </div>
         </div>
@@ -86,7 +84,7 @@
 
     <div class="lp-page">
         <h1>さあ、はじめよう</h1><br>
-        <a href="/user/login" class="lgbtn02">ログイン</a>
+        <a href="/user/login" class="lgbtn02"><i class="fa-solid fa-volume-high"></i>&nbsp;ログイン</a>
     </div>
 
     <div class="footer">

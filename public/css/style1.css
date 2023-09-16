@@ -23,22 +23,14 @@
   }
 
   .header1{
-    background-color: green;
     height: 90px;
-    width: 90px;
-    margin-left: 10px;
-    padding-top:25px;
-    padding-left: 50px;
+    width: 300px;
+    margin-left: 100px;
+    padding: 25px 0px;
+    color: #52A0A8;
   }
 
   .header2{
-    background-color: white;
-    height: 90px;
-    width: 300px;
-    padding: 25px 0px;
-  }
-
-  .header3{
     height: 90px;
     width: 700px;
     display: flex; /* Flexboxを設定 */
@@ -49,18 +41,19 @@
   .sub1{
     width: 200px;
     height: 90px;
+    padding: 28px 40px;
   }
 
   .sub2{
     height: 90px;
     width: 200px;
-    background-color: green;
+    padding: 28px 20px;
   }
 
   .sub3{
     height: 90px;
     width: 300px;
-    background-color: red;
+    padding: 25px 20px;
   }
 
 
@@ -101,11 +94,12 @@
   }
 
   .btn01{
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 35px;
     background-color: #D9594B;
     color: white;
     border-radius:10px;
+    cursor:pointer
   }
 
   .about{
@@ -189,11 +183,12 @@
 
   .btn02{
     width: 130px;
-    height: 50px;
+    height: 45px;
     background-color: #D9594B;
     color: white;
     border-radius:10px;
     font-size: 14px;
+    cursor:pointer
   }
 
   .about-001{
@@ -210,7 +205,7 @@
   .about-0002{
     width: 150px;
     height: 100px;
-    padding-top: 20px;
+    padding-top: 28px;
   }
 
   .lgbtn01{
