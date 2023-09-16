@@ -40,6 +40,7 @@ Route::prefix('/user')->group(function () {
 });
 
 Route::get('/main/menu', [MainController::class, 'index']);
+Route::get('/main/menu', [MainController::class, 'list']);
 
 Route::get('/archive/data', [ArchiveController::class, 'list']);
 

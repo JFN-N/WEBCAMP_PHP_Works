@@ -7,26 +7,59 @@
 
 .header{
   width: 100%;
-  height: 50px;
-  background-color: #FFD200;
+  height: 80px;
+  background-color: #F1F5F8;
 }
 
 .header-logo{
-  width: 900px;
-  height: 50px;
-  margin: 0 300px;
+  width: 280px;
+  height: 70px;
+  margin: 0 100px;
+  padding-top: 15px;
+  color: #52A0A8;
 }
 
-.sub-header{
-  width: 100%;
+.lists{
+ width: 100%;
+ height: 800px;
+ background-color: red;
+ padding: 30px 450px;
+}
+
+.list-logo{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  background-color: #4EAEB5;
+  color: white;
+  font-size: 18px;
+  padding: 30px 20px;
+}
+
+.complete-table{
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+.page-nation{
+ width: 600px;
+ height: 100px;
+ background-color: orange;
+ text-align: center;
+}
+
+th,td{
+  width: 200px;
   height: 50px;
 }
 
-.sub-header-logo{
-  width: 900px;
-  height: 50px;
-  margin: 0 300px;
-  padding-top: 10px;
+th{
+  padding-right: 100px;
+}
+
+td{
+  padding-left: 30px;
 }
 
 .main{

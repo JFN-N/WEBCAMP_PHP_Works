@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>レシピマスター|メニュー</title>
         <link rel="stylesheet" href="{{ asset('/css/style2.css')  }}" >
+        <link href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet">
     </head>
     <body>
 @yield('main.contets')

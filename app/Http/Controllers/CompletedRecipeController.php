@@ -33,23 +33,6 @@ class CompletedRecipeController extends Controller
         $list = $this->getListBuilder()
                      ->paginate($per_page);
 
-    /**
-     * タスクの詳細閲覧
-     */
-
-    /*
-    public function detail($completed_recipe_id)
-    {
-        //
-        return $this->singleTaskRender($completed_recipe_id, 'recipe.completed_detail');
-    }
-    */
-/*
-$sql = $this->getListBuilder()
-            ->toSql();
-echo "<pre>\n"; var_dump($sql, $list); exit;
-var_dump($sql);
-*/
         //
         return view('recipe.completed_list', ['list' => $list]);
     }
