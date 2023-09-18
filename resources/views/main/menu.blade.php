@@ -6,6 +6,10 @@
     <div class="header-logo">
     <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
     </div>
+
+    <div class="lgout-btn">
+        <a href="/logout" class="btn02"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
+    </div>
 </div>
 
 <div class="lists">
