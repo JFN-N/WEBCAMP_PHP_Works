@@ -42,15 +42,17 @@
 
 .register-view{
     width: 100%;
-    height:800px;
+    height:1000px;
+    background-color: red;
 }
 
 .register-form-logo{
-    width: 170px;
-    height: 50px;
+    width: 800px;
+    height: 100px;
     margin-top: 10px;
-    margin-left: 150px;
-    background-color: green;
+    margin-left: 350px;
+    background-color: orange;
+    text-align: center;
 }
 
 .session{
@@ -71,8 +73,7 @@
 .regsiter-main-form{
     width: 800px;
     height: 550px;
-    margin:  0 auto;
-    font-size: 30px;
+    margin-left:350px;
     text-align: center;
     background-color: green;
 }
