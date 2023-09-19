@@ -24,15 +24,20 @@
 .lgout-btn{
   width: 400px;
   height: 90px;
-  background-color: green;
   margin-left:500px;
+  padding: 20px 0px 20px 250px;
 }
 
 .btn02{
- width: 300px;
- height: 40px;
- color: white;
- background-color: red;
+  display: block;
+  width: 110px;
+  padding: 15px 0;
+  background: #52A0A8;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  border-radius:10px;
 }
 
 .lists{
