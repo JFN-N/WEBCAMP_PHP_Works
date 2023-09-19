@@ -60,7 +60,6 @@
         </div>
     </div>
 
-    <hr size="5" color="orange">
 
     <div class="list-form">
 
