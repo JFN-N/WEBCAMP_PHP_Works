@@ -9,13 +9,13 @@
         </div>
     </div>
 
-    <div class="register-view">
+    <div class="main1">
+    <div class="form">
+        <div class="register-form-logo">
+        <h1>料理の登録</h1>
+        </div>
 
-    <div class="register-form-logo">
-    <h2>料理の登録</h2>
-    </div>
-
-    <div class="regsiter-main-form">
+        <div class="regsiter-main-form">
 
         <form action="/recipe/list" method="post">
             @csrf
@@ -33,6 +33,8 @@
         </form>
 
         </div>
+
+    </div>
     </div>
 
 

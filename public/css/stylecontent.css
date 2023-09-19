@@ -7,10 +7,17 @@
     box-sizing: border-box;
   }
 
-.main{
-    background-color: white;
+.main1{
     width: 100%;
     height:800px;
+    padding: 50px 350px;
+    background-color: #F1F5F8;
+}
+
+.form{
+  width: 800px;
+  height: 650px;
+  box-shadow:  1px 1px 5px black;
 }
 
 .header{
@@ -33,26 +40,13 @@
     height:50px;
 }
 
-.sub-header-menu{
-    width: 900px;
-    height: 50px;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.register-view{
-    width: 100%;
-    height:1000px;
-    background-color: red;
-}
-
 .register-form-logo{
     width: 800px;
     height: 100px;
-    margin-top: 10px;
-    margin-left: 350px;
-    background-color: orange;
+    background-color: #4EAEB5;
+    color: white;
     text-align: center;
+    padding-top: 30px;
 }
 
 .session{
@@ -73,9 +67,8 @@
 .regsiter-main-form{
     width: 800px;
     height: 550px;
-    margin-left:350px;
     text-align: center;
-    background-color: green;
+    padding-top: 30px;
 }
 
 textarea{
