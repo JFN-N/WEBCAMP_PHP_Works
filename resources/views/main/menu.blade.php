@@ -19,7 +19,8 @@
         <h2>作れる料理一覧</h2>
         </div>
 
-        <table border="1">
+        <div class="table">
+        <table border="0">
 
         <tr>
             <th>料理名
@@ -33,6 +34,7 @@
     @endforeach
         </table>
         </div>
+
         <div class="page-nation">
         <!-- ページネーション -->
         {{-- {{ $list->links() }} --}}
@@ -76,20 +78,6 @@
         </div>
 
 </div>
-
-<div class="main">
-
-    <div class="button">
-    <a href="/archive/data" class="btn01">実績を見る</a><br>
-    </div>
-
-    <div class="button">
-    <a href="/recipe/list" class="btn01">登録をする</a>
-    </div>
-
-</div>
-
-<hr>
 
 <div class="footer">
     <a href="/logout">ログアウト</a>
