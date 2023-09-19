@@ -20,25 +20,6 @@
     <div class="register-form-logo">
     <h2>料理の登録</h2>
     </div>
-    <div class="session">
-        @if (session('front.task_register_success') == true)
-            料理を登録しました<br>
-        @endif
-        @if (session('front.task_delete_success') == true)
-            料理を削除しました<br>
-        @endif
-        @if (session('front.task_completed_success') == true)
-            料理をマスターしました<br>
-        @endif
-
-        @if ($errors->any())
-        <div>
-        @foreach ($errors->all() as $error)
-            {{ $error }}<br>
-        @endforeach
-        </div>
-        @endif
-    </div>
 
     <div class="regsiter-main-form">
 
