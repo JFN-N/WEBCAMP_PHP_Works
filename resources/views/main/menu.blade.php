@@ -30,7 +30,7 @@
         <tr>
             <td>{{ $complete_recipe->name }}
             <td>{{ $complete_recipe->getTypeString() }}
-            <td>
+            <td><!--<a href="{{ route('/mastered/recipe', ['completed_recipe_id' => $complete_recipe->id]) }}">詳細閲覧</a> -->
     @endforeach
         </table>
         </div>
@@ -77,6 +77,11 @@
 
         </div>
 
+</div>
+
+<div class="main">
+    <a href="/recipe/list">ああああ</a>
+    <a href="/archive/data">いいいい</a>
 </div>
 
 <div class="footer">
