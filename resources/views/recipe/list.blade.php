@@ -8,12 +8,6 @@
         <h1>レシピマスター</h1>
         </div>
     </div>
-    <div class="sub-header">
-        <div class="sub-header-menu">
-        <a href="/main/menu" >メインメニュー</a>　》　料理の登録・確認
-        </div>
-    </div>
-    <hr>
 
     <div class="register-view">
 
