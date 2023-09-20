@@ -9,34 +9,6 @@
         </div>
     </div>
 
-    <div class="main1">
-    <div class="form">
-        <div class="register-form-logo">
-        <h1>料理の登録</h1>
-        </div>
-
-        <div class="regsiter-main-form">
-
-        <form action="/recipe/list" method="post">
-            @csrf
-            <div class=""></div>
-            料理名<br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
-
-            種類<br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
-                <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>&nbsp;魚&nbsp;&nbsp;</label>
-                <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>&nbsp;野菜&nbsp;&nbsp;</label>
-                <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>&nbsp;その他</label><br>
-
-            詳細:<br><textarea name="detail">{{ old('detail') }}</textarea><br>
-
-            <button>登録する</button>
-        </form>
-
-        </div>
-
-    </div>
-    </div>
-
     <div class="a_main">
         <div class="a_form">
             <div class="a_logo"></div>

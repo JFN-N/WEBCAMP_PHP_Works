@@ -80,20 +80,22 @@ textarea{
 
 .list-form{
     width: 100%;
-    height:500px;
+    height:800px;
+    background-color: green;
 }
 
 .list-form-logo{
     width: 300px;
     height: 50px;
-    margin-top: 10px;
-    margin-left: 150px;
+    padding: 10px 55px;
+    margin: 0px 600px;
+    background-color: white;
 }
 
 .list-view{
     width: 900px;
     height: 300px;
-    margin:  0 auto;
+    margin:  50px 300px;
     background-color: white;
 }
 
@@ -145,7 +147,7 @@ button {
 
 .a_main{
   width: 100%;
-  height: 1500px;
+  height: 950px;
   background-color: pink;
   padding: 50px 350px;
 }
