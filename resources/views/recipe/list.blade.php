@@ -16,7 +16,7 @@
             <form action="/recipe/list" method="post">
             @csrf
                 <div class="c1">
-                    料理名<br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
+                    料理名<br><br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
                 </div>
                 <div class="c2">
                     種類<br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
