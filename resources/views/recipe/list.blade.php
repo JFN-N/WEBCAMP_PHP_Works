@@ -55,7 +55,7 @@
                 <div class="c3">
                     詳細<br><br><textarea name="detail">{{ old('detail') }}</textarea><br>
                 </div>
-                <div class="c4"><button>登録する</button></div>
+                <div class="c4"><button class="btn02">登録する</button></div>
             </form>
             </div>
         </div>
