@@ -12,6 +12,8 @@
     </div>
 </div>
 
+<div class="achievenemnt">
+
     <div class="complete-table">
         <div class="list-logo">
         <h2>作れる料理一覧</h2>
@@ -77,6 +79,9 @@
 
 </div>
 
+</div>
+
+
 <div class="main">
     <div class="main1">
         <a href="/recipe/list" class="btn02">登録する</a>
@@ -87,7 +92,7 @@
 </div>
 
 <div class="footer">
-    <a href="/logout">ログアウト</a>
+    <a href="/logout" class="btn01"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
 </div>
 
 @endsection
