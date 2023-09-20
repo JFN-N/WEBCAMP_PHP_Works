@@ -29,7 +29,7 @@
 }
 
 .header-logo{
-    width: 250px;
+    width: 300px;
     height: 60px;
     background-color: green;
     padding: 10px;
@@ -111,6 +111,10 @@ tr,td{
     width: 900px;
     height: 40px;
     text-align: center;
+}
+
+th{
+  background-color: orange;
 }
 
 .complete-list-btn{

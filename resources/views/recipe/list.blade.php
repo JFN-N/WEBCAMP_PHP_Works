@@ -5,7 +5,7 @@
 
     <div class="header">
         <div class="header-logo">
-        <h1>レシピマスター</h1>
+        <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
         </div>
     </div>
 
@@ -42,7 +42,7 @@
 
         <div class="list-view">
         <!--　-->
-        <table border="1">
+        <table border="0">
         <tr>
             <th>料理名
             <th>種類
