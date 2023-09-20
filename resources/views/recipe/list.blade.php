@@ -11,7 +11,7 @@
 
     <div class="a_main">
         <div class="a_form">
-            <div class="a_logo"></div>
+            <div class="a_logo"><h1>料理の登録</h1></div>
             <div class="a_rform">
             <form action="/recipe/list" method="post">
             @csrf
