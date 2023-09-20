@@ -19,10 +19,10 @@
 
         <form action="/recipe/list" method="post">
             @csrf
+            <div class=""></div>
+            料理名<br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
 
-            料理名:　<input name="name" value="{{ old('name') }}" class="recipe-name"><br>
-
-            種類:　<label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
+            種類<br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
                 <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>&nbsp;魚&nbsp;&nbsp;</label>
                 <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>&nbsp;野菜&nbsp;&nbsp;</label>
                 <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>&nbsp;その他</label><br>
@@ -35,6 +35,30 @@
         </div>
 
     </div>
+    </div>
+
+    <div class="a_main">
+        <div class="a_form">
+            <div class="a_logo"></div>
+            <div class="a_rform">
+            <form action="/recipe/list" method="post">
+            @csrf
+                <div class="c1">
+                    料理名<br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
+                </div>
+                <div class="c2">
+                    種類<br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
+                        <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>&nbsp;魚&nbsp;&nbsp;</label>
+                        <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>&nbsp;野菜&nbsp;&nbsp;</label>
+                        <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>&nbsp;その他</label><br>
+                </div>
+                <div class="c3">
+                    詳細<br><br><textarea name="detail">{{ old('detail') }}</textarea><br>
+                </div>
+                <div class="c4"><button>登録する</button></div>
+            </form>
+            </div>
+        </div>
     </div>
 
 
