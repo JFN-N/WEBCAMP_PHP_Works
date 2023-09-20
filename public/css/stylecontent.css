@@ -99,21 +99,15 @@
     background-color: orange;
 }
 
-table{
-    width: 900px;
-    height: 40px;
-}
-
-tr,td{
-    width: 900px;
-    height: 40px;
-    text-align: center;
-    border-bottom: 1px solid #333;
+th,td{
+    width: 200px;
+    height: 50px;
 }
 
 th{
-  background-color: orange;
+    background-color: orange;
 }
+
 
 .complete-list-btn{
     text-align: center;
