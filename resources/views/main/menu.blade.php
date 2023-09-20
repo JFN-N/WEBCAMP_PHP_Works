@@ -8,11 +8,9 @@
     </div>
 
     <div class="lgout-btn">
-        <a href="/logout" class="btn02"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
+        <a href="/logout" class="btn01"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
     </div>
 </div>
-
-<div class="lists">
 
     <div class="complete-table">
         <div class="list-logo">
@@ -80,8 +78,12 @@
 </div>
 
 <div class="main">
-    <a href="/recipe/list">ああああ</a>
-    <a href="/archive/data">いいいい</a>
+    <div class="main1">
+        <a href="/recipe/list" class="btn02">登録する</a>
+    </div>
+    <div class="main2">
+        <a href="/archive/data" class="btn02">実績を見る</a>
+    </div>
 </div>
 
 <div class="footer">
