@@ -22,15 +22,15 @@
 }
 
 .btn-box{
-  width: 450px;
+  width: 600px;
   height: 90px;
-  margin-left:450px;
+  margin-left:350px;
   display: flex; /* Flexboxを設定 */
   flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
 }
 
 .box1,.box2,.box3{
-  width: 150px;
+  width: 200px;
   height: 90px;
   color: white;
   padding-top: 20px;
