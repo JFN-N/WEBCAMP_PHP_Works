@@ -8,7 +8,9 @@
     </div>
 
     <div class="btn-box">
-        
+        <div class="box1"><a href="/recipe/list" class="btn01">登録</a></div>
+        <div class="box2"><a href="/archive/data" class="btn01">実績</a></div>
+        <div class="box3"><a href="/logout" class="btn01">ログアウト</a></div>
     </div>
 </div>
 
@@ -84,10 +86,10 @@
 
 <div class="main">
     <div class="main1">
-        <a href="/recipe/list" class="btn02">登録する</a>
+        <a href="/recipe/list" class="btn03">登録する</a>
     </div>
     <div class="main2">
-        <a href="/archive/data" class="btn02">実績を見る</a>
+        <a href="/archive/data" class="btn03">実績を見る</a>
     </div>
 </div>
 

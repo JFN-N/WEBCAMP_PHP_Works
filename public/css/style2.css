@@ -22,22 +22,32 @@
 }
 
 .btn-box{
-  width: 600px;
+  width: 450px;
   height: 90px;
-  margin-left:350px;
-  background-color: green;
+  margin-left:450px;
+  display: flex; /* Flexboxを設定 */
+  flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+}
+
+.box1,.box2,.box3{
+  width: 150px;
+  height: 90px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 .btn01{
   display: block;
-  width: 110px;
-  padding: 15px 0;
+  width: 100px;
+  height: 40px;
   background: #52A0A8;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
   border-radius:10px;
+  padding: 8px 0px;
 }
 
 .achievenemnt{
@@ -107,7 +117,7 @@ td{
   padding: 60px 600px;
 }
 
-.btn02{
+.btn03{
   display: block;
   width: 300px;
   height: 50px;
