@@ -7,8 +7,8 @@
     <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
     </div>
 
-    <div class="lgout-btn">
-        <a href="/logout" class="btn01"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
+    <div class="btn-box">
+        
     </div>
 </div>
 

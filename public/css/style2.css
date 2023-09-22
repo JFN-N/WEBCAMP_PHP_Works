@@ -21,11 +21,11 @@
   color: #52A0A8;
 }
 
-.lgout-btn{
-  width: 400px;
+.btn-box{
+  width: 600px;
   height: 90px;
-  margin-left:500px;
-  padding: 20px 0px 20px 250px;
+  margin-left:350px;
+  background-color: green;
 }
 
 .btn01{
