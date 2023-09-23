@@ -7,6 +7,11 @@
         <div class="header-logo">
         <h1>レシピマスター</h1>
         </div>
+        <div class="box-btn">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
     </div>
 
     <div class="main">
