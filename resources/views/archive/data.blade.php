@@ -7,14 +7,11 @@
         <div class="header-logo">
         <h1>レシピマスター</h1>
         </div>
-        <div class="header-menu">
-        <a href="/main/menu">メインメニュー</a>　》　実績
-        </div>
     </div>
 
-    <hr>
-
     <div class="main">
+
+    <div class="archive">
 
     <div class="main-text">
         <h2>あなたは以下の種類の料理を作ることができます</h2>
@@ -22,7 +19,7 @@
 
     <div class="main-table">
 
-    <table border="1">
+    <table border="0">
 
 
         <tr>
@@ -40,11 +37,10 @@
 
     </div>
 
+    </div>
 
     </div>
 
-    <br>
-    <hr>
     <div class="footer">
         <a href="/main/menu">メインメニューに戻る</a>
     </div>
