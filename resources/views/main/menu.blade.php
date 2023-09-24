@@ -8,9 +8,9 @@
     </div>
 
     <div class="btn-box">
-        <div class="box1"><a href="/recipe/list" class="btn01">登録</a></div>
-        <div class="box2"><a href="/archive/data" class="btn01">実績</a></div>
-        <div class="box3"><a href="/logout" class="btn01">ログアウト</a></div>
+        <div class="box1"><a href="/recipe/list" class="btn01"><i class="fa-solid fa-book"></i>&nbsp;登録</a></div>
+        <div class="box2"><a href="/archive/data" class="btn01"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a></div>
+        <div class="box3"><a href="/logout" class="btn01"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a></div>
     </div>
 </div>
 
@@ -27,7 +27,7 @@
         <tr>
             <th>料理名
             <th>種類
-            <td>
+            <td>詳細
     @foreach ($list as $complete_recipe)
         <tr>
             <td>{{ $complete_recipe->name }}
@@ -84,7 +84,7 @@
 </div>
 
 <div class="footer">
-    <a href="/logout" class="btn01"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
+    <a href="/logout" class="btn01"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
 </div>
 
 @endsection

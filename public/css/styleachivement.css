@@ -71,9 +71,10 @@
 
 .main-text{
   width: 700px;
-  height: 70px;
+  height: 80px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
+  color: white;
 }
 
 .main-table{

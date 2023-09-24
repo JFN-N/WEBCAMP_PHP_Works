@@ -15,7 +15,7 @@
                 <a href="/main/menu" class="btn02">メニュー</a>
             </div>
             <div class="box3">
-                <a href="/logout" class="btn02">ログアウト</a>
+                <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
             </div>
         </div>
     </div>
@@ -128,7 +128,7 @@
         <div class ="footer">
         <a href="/main/menu">メニューに戻る</a>
         <menu label="リンク">
-        <br><a href="/logout">ログアウト</a><br>
+        <br><a href="/logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
         </menu>
         </div>
 
