@@ -28,7 +28,7 @@
                     料理名<br><br><input name="name" value="{{ old('name') }}" class="recipe-name"><br>
                 </div>
                 <div class="c2">
-                    種類<br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
+                    種類<br><br><label><input type="radio" name="type" value="1" @if (old('priority', 1) == 1) checked @endif>&nbsp;肉&nbsp;&nbsp;</label>
                         <label><input type="radio" name="type" value="2" @if (old('priority') == 2) checked @endif>&nbsp;魚&nbsp;&nbsp;</label>
                         <label><input type="radio" name="type" value="3" @if (old('priority') == 3) checked @endif>&nbsp;野菜&nbsp;&nbsp;</label>
                         <label><input type="radio" name="type" value="4" @if (old('priority') == 4) checked @endif>&nbsp;その他</label><br>
