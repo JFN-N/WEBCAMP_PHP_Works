@@ -11,7 +11,9 @@
 
         <div class="boxes">
             <div class="box1"></div>
-            <div class="box2"></div>
+            <div class="box2">
+                <a href="/main/menu" class="btn02">メニュー</a>
+            </div>
             <div class="box3">
                 <a href="/logout" class="btn02">ログアウト</a>
             </div>
