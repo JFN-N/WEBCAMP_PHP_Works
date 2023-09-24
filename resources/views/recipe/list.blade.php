@@ -7,6 +7,13 @@
         <div class="header-logo">
         <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
         </div>
+
+
+        <div class="">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
     </div>
 
     <div class="a_main">
