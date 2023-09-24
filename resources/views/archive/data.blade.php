@@ -9,7 +9,7 @@
         </div>
         <div class="box-btn">
             <div class="box1"><a href="" class=""></a></div>
-            <div class="box2"><a href="" class="btn01">登録</a></div>
+            <div class="box2"><a href="/recipe/list" class="btn01">登録</a></div>
             <div class="box3"><a href="" class=""></a></div>
         </div>
     </div>
