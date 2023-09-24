@@ -32,12 +32,45 @@
 
 .header-logo{
     width: 300px;
-    height: 60px;
+    height: 80px;
     background-color: green;
-    padding: 10px;
+    padding: 20px;
 }
 
+.boxes{
+    width: 600px;
+    height: 80px;
+    display: flex; /* Flexboxを設定 */
+    flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+    background-color: green;
+    margin-left: 250px;
+}
 
+.box1,.box2,.box3{
+    width: 200px;
+    height: 80px;
+}
+
+.box3{
+    padding: 20px 25px;
+}
+
+.btn02{
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #52A0A8;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  border-radius:10px;
+  padding: 8px 0px;
+}
+
+.btn03{
+    
+}
 
 .session{
     color: red;

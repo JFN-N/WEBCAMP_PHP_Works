@@ -9,10 +9,12 @@
         </div>
 
 
-        <div class="">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+        <div class="boxes">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3">
+                <a href="/logout" class="btn02">ログアウト</a>
+            </div>
         </div>
     </div>
 
@@ -34,7 +36,9 @@
                 <div class="c3">
                     詳細<br><br><textarea name="detail">{{ old('detail') }}</textarea><br>
                 </div>
-                <div class="c4"><button class="btn02">登録する</button></div>
+                <div class="c4">
+                    <button class="btn03">登録する</button>
+                </div>
             </form>
             </div>
         </div>
@@ -118,8 +122,6 @@
         </div>
 
     </div>
-        <br>
-        <hr>
 
         <div class ="footer">
         <a href="/main/menu">メニューに戻る</a>
