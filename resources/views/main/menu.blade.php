@@ -83,16 +83,6 @@
 
 </div>
 
-
-<div class="main">
-    <div class="main1">
-        <a href="/recipe/list" class="btn03">登録する</a>
-    </div>
-    <div class="main2">
-        <a href="/archive/data" class="btn03">実績を見る</a>
-    </div>
-</div>
-
 <div class="footer">
     <a href="/logout" class="btn01"><i class="fa-solid fa-user-plus"></i>&nbsp;ログアウト</a>
 </div>
