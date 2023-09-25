@@ -6,7 +6,6 @@
         <title>レシピマスター|メニュー</title>
         <link rel="stylesheet" href="{{ asset('/css/style2.css')  }}" >
         <link href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
 @yield('main.contets')
