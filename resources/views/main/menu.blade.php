@@ -79,6 +79,7 @@
 
         </div>
         <div class="PN">
+            {{ $list->links('vendor.pagination.semantic-ui') }}
         </div>
 
 </div>
