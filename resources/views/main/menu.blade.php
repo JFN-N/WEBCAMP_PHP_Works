@@ -78,6 +78,9 @@
         @endif
 
         </div>
+        <div class="PN">
+            {{ $list->links() }}
+        </div>
 
 </div>
 
