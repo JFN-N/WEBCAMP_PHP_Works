@@ -128,7 +128,7 @@
         <div class ="footer">
         <a href="/main/menu">メニューに戻る</a>
         <menu label="リンク">
-        <br><a href="/logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
+        <br><a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
         </menu>
         </div>
 
