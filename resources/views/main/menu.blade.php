@@ -79,7 +79,7 @@
 
         </div>
         <div class="PN">
-            {{ $list->links('vendor.pagination.custom') }}
+            {{ $list->links('vendor.pagination.bootstrap-4') }}
         </div>
 
 </div>

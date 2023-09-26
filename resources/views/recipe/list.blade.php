@@ -119,6 +119,10 @@
         @endif
         </div>
 
+        <div class="PN">
+            {{ $list->links('vendor.pagination.bootstrap-4') }}
+        </div>
+
         <div class="complete-list-btn">
         <a href="/recipe/completed_list">作れる料理を見る</a>
         </div>
