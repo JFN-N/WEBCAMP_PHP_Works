@@ -9,8 +9,8 @@
         </div>
         <div class="box-btn">
             <div class="box1"><a href="" class=""></a></div>
-            <div class="box2"><a href="/recipe/list" class="btn01">登録</a></div>
-            <div class="box3"><a href="" class=""></a></div>
+            <div class="box2"><a href="/recipe/list" class="btn01"><i class="fa-solid fa-book"></i>&nbsp;登録</a></div>
+            <div class="box3"><a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a></div>
         </div>
     </div>
 
