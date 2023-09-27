@@ -10,7 +10,9 @@
 
 
         <div class="boxes">
-            <div class="box1"></div>
+            <div class="box1">
+                <a href="/archive/data" class="btn02">実績</a>
+            </div>
             <div class="box2">
                 <a href="/main/menu" class="btn02">メニュー</a>
             </div>

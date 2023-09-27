@@ -42,18 +42,16 @@
     height: 80px;
     display: flex; /* Flexboxを設定 */
     flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-    background-color: green;
     margin-left: 250px;
 }
 
 .box1,.box2,.box3{
     width: 200px;
     height: 80px;
-}
-
-.box2,.box3{
     padding: 20px 25px;
 }
+
+
 
 .btn02{
   display: block;
@@ -154,11 +152,11 @@ button{
  height: 30px;
 }
 
-th,td,tr{
+th,td{
     width: 200px;
     height: 100px;
-    padding: 10px;
-    border-bottom: solid 5px #778ca3;
+    padding-left: 10px;
+    border-bottom: solid 1px black;
 }
 
 th{
