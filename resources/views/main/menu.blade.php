@@ -21,6 +21,10 @@
         <h2>作れる料理一覧</h2>
         </div>
 
+        <div class="PN">
+            {{ $list->links('vendor.pagination.bootstrap-4') }}
+        </div>
+
         <div class="table">
         <table border="0">
 
@@ -37,50 +41,6 @@
         </table>
         </div>
 
-        <div class="page-nation">
-        <!-- ページネーション -->
-        {{-- {{ $list->links() }} --}}
-        現在 {{ $list->currentPage() }} ページ目<br>
-
-        <!--
-        @if ($list->onFirstPage() === false)
-            <a href="/recipe/completed_list">最初のページ</a>
-        @else
-            最初のページ
-        @endif
-        -->
-        @if ($list->previousPageUrl() !== null)
-            <a href="{{ $list->previousPageUrl() }}"><i class="fa-solid fa-circle-arrow-left fa-2x"></i></a>
-        @else
-            &nbsp;
-        @endif
-
-        &nbsp;
-        <!--
-        @if ($list->previousPageUrl() !== null)
-            <a href="{{ $list->previousPageUrl() }}">前に戻る</a>
-        @else
-            前に戻る
-        @endif
-        -->
-
-        @if ($list->onFirstPage() === false)
-            <a href="/main/menu">最初のページ</a>
-        @else
-            &nbsp;
-        @endif
-
-        &nbsp;
-        @if ($list->nextPageUrl() !== null)
-            <a href="{{ $list->nextPageUrl() }}"><i class="fa-solid fa-circle-arrow-right fa-2x"></i></a>
-        @else
-            &nbsp;
-        @endif
-
-        </div>
-        <div class="PN">
-            {{ $list->links('vendor.pagination.bootstrap-4') }}
-        </div>
 
 </div>
 
