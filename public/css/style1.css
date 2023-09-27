@@ -41,13 +41,13 @@
   .sub1{
     width: 200px;
     height: 90px;
-    padding: 28px 40px;
+    padding: 40px 40px;
   }
 
   .sub2{
     height: 90px;
     width: 200px;
-    padding: 28px 20px;
+    padding: 40px 20px;
   }
 
   .sub3{
@@ -58,6 +58,11 @@
 
 
 .hdb1{
+  color: #52A0A8;
+  text-decoration: none;
+}
+
+.hdb1:hover{
   color: #52A0A8;
 }
 
@@ -217,6 +222,10 @@
     text-align: center;
     font-size: 10px;
     border-radius:10px;
+  }
+
+  .lgbtn01:hover{
+    color: white;
   }
 
   .lgbtn02{
