@@ -15,7 +15,7 @@
                 <a href="/user/login" class="hdb1"><i class="fa-solid fa-volume-high"></i>&nbsp;ログイン</a>
             </div>
             <div class="sub2">
-                <a href="/user/login"><i class="fa-solid fa-user-plus"></i>&nbsp;ユーザー登録</a>
+                <a href="/user/login" class="hdb1"><i class="fa-solid fa-user-plus"></i>&nbsp;ユーザー登録</a>
             </div>
             <div class="sub3">
             <form action="{{ route('login.guest') }}" method="post" class="btn">
