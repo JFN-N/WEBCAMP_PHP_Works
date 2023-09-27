@@ -114,10 +114,10 @@ button{
 }
 
 .list-form-logo{
-    width: 300px;
+    width: 400px;
     height: 50px;
-    padding: 10px 55px;
-    margin: 0px 600px;
+    text-align: center;
+    margin: 0px 550px;
     background-color: white;
 }
 
@@ -133,6 +133,11 @@ button{
     height: 100px;
     text-align: center;
     background-color: orange;
+}
+
+.f-button,.d-button{
+ width: 100px;
+ height: 30px;
 }
 
 th,td{
