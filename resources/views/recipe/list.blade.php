@@ -48,47 +48,44 @@
 
 
     <div class="list-form">
+        <div class="list">
+            <div class="list-form-logo">
+            <h2>料理レシピ一覧</h2>
+            </div>
 
-        <div class="list-form-logo">
-        <h2>料理レシピ一覧</h2>
-        </div>
+            <div class="PN">
+                {{ $list->links('vendor.pagination.bootstrap-4') }}
+            </div>
 
-        <div class="PN">
-            {{ $list->links('vendor.pagination.bootstrap-4') }}
-        </div>
-
-        <div class="list-view">
-        <!--　-->
-        <table border="0">
-        <tr>
-            <th>料理名
-            <th>種類
-            <th colspan="4">項目
-        @foreach ($list as $recipe)
-        <tr>
-            <td>{{ $recipe->name }}
-            <td>{{ $recipe->getTypeString() }}
-            <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
-            <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
-            <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post">
+            <div class="list-view">
+            <!--　-->
+            <table border="0">
+            <tr>
+                <th>料理名
+                <th>種類
+                <th colspan="4">項目
+            @foreach ($list as $recipe)
+            <tr>
+                <td>{{ $recipe->name }}
+                <td>{{ $recipe->getTypeString() }}
+                <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}">詳細閲覧</a>
+                <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}">編集</a>
+                <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 <button onclick='return confirm("この料理を作れるようになりましたか？");' class="f-button">完了</button></form></a>
-            <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">
+                <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 @method("DELETE")
                 <button onclick='return confirm("レシピを削除しますか？");' class="d-button">削除</button></form></a>
-        @endforeach
-        </table>
+            @endforeach
+            </table>
+            </div>
         </div>
 
-        <div class="complete-list-btn">
-        <a href="/recipe/completed_list">作れる料理を見る</a>
-        </div>
 
     </div>
 
         <div class ="footer">
-        <a href="/main/menu">メニューに戻る</a>
         <menu label="リンク">
         <br><a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
         </menu>

@@ -113,28 +113,31 @@ button{
     background-color: #F1F5F8;
 }
 
+.list{
+  width: 800px;
+  height: 440px;
+  margin: 0px 350px;
+}
+
 .list-form-logo{
-    width: 900px;
+    width: 100%;
     height: 80px;
     text-align: center;
-    margin: 0px 300px;
     padding-top: 20px;
     background-color: #4EAEB5;
     color: white;
 }
 
 .PN{
- width: 900px;
+ width: 100%;
  height: 60px;
  background-color: #4EAEB5;
- margin: 0px 300px;
  padding-top: 20px;
 }
 
 .list-view{
-    width: 900px;
+    width: 100%;
     height: 300px;
-    margin:  0px 300px;
     background-color: white;
 }
 
