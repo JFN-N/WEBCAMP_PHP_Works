@@ -53,6 +53,10 @@
         <h2>料理レシピ一覧</h2>
         </div>
 
+        <div class="PN">
+            {{ $list->links('vendor.pagination.bootstrap-4') }}
+        </div>
+
         <div class="list-view">
         <!--　-->
         <table border="0">
@@ -117,10 +121,6 @@
         @else
             &nbsp;
         @endif
-        </div>
-
-        <div class="PN">
-            {{ $list->links('vendor.pagination.bootstrap-4') }}
         </div>
 
         <div class="complete-list-btn">
