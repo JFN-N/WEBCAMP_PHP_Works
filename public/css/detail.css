@@ -16,11 +16,18 @@
 }
 
 .header-logo{
-  width: 250px;
+  width: 230px;
   height: 100px;
   padding-top: 25px;
   margin-left: 200px;
   color: #52A0A8;
+  background-color: green;
+}
+
+.boxes{
+  width: 600px;
+  height: 100px;
+  margin-left: 350px;
   background-color: green;
 }
 
