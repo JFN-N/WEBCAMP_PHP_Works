@@ -8,14 +8,6 @@
         </div>
     </div>
 
-    <div class="sub-header">
-        <div class="header-menu">
-        <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・一覧</a>　》料理の詳細
-        </div>
-    </div>
-
-    <hr>
-
     <div class="alert">
         @if (session('front.task_edit_success') == true)
         レシピを編集しました！！<br>
