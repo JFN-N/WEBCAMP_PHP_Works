@@ -22,8 +22,10 @@
     <div class="main">
 
     <div class="contents">
-        <div class="name">料理名： {{ $recipe->name }}<br></div>
-        <div class="type">種類： {{ $recipe->getTypeString() }}<br></div>
+        <div class="NT">
+        <div class="name">料理名：<br>{{ $recipe->name }}</div>
+        <div class="type">種類：<br>{{ $recipe->getTypeString() }}</div>
+        </div>
         <div class="detail">料理の詳細： <pre>{{ $recipe->detail }}</pre><br></div>
     </div>
 
