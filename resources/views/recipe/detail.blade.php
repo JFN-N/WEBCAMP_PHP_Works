@@ -11,7 +11,7 @@
                 <a href="" class=""></a>
             </div>
             <div class="box2">
-                <a href="" class=""></a>
+                <a href="/recipe/list" class="btn02"><i class="fa-solid fa-book"></i>&nbsp;登録</a>
             </div>
             <div class="box3">
                 <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
