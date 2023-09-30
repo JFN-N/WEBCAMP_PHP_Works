@@ -8,10 +8,10 @@
         </div>
         <div class="boxes">
             <div class="box1">
-                <a href="" class=""></a>
+                <a href="/recipe/list" class="btn02"><i class="fa-solid fa-book"></i>&nbsp;登録</a>
             </div>
             <div class="box2">
-                <a href="/recipe/list" class="btn02"><i class="fa-solid fa-book"></i>&nbsp;登録</a>
+                <a href="/archive/data" class="btn02"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a></a>
             </div>
             <div class="box3">
                 <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
@@ -35,6 +35,5 @@
 
         <div class="footer">
         <a href="/main/menu">メインメニューに戻る</a>
-        <br><br><a href="/recipe/list">料理の登録・確認に戻る</a>
         </div>
 @endsection

@@ -28,7 +28,6 @@
   width: 600px;
   height: 100px;
   margin-left: 250px;
-  background-color: green;
   display: flex; /* Flexboxを設定 */
   flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
 }
@@ -36,10 +35,7 @@
 .box1,.box2,.box3{
   width: 200px;
   height: 100px;
-}
-
-.box2{
- background-color: orange;
+  padding: 25px 45px;
 }
 
 .btn01{
