@@ -4,12 +4,18 @@
 @section('detail.contets')
     <div class="header">
         <div class="header-logo">
-        <h1>レシピマスター</h1>
+        <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
         </div>
         <div class="boxes">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
+            <div class="box1">
+                <a href="" class=""></a>
+            </div>
+            <div class="box2">
+                <a href="" class=""></a>
+            </div>
+            <div class="box3">
+                <a href="" class=""></a>
+            </div>
         </div>
     </div>
 
