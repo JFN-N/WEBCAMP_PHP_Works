@@ -21,7 +21,6 @@
   padding-top: 25px;
   margin-left: 200px;
   color: #52A0A8;
-  background-color: green;
 }
 
 .boxes{
@@ -38,7 +37,7 @@
   padding: 25px 45px;
 }
 
-.btn01{
+.btn02{
   display: block;
   width: 110px;
   height: 40px;
@@ -51,17 +50,8 @@
   padding: 8px 0px;
 }
 
-.btn02{
-  display: block;
-  width: 110px;
-  height: 40px;
-  background: #52A0A8;
+.btn02:hover{
   color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 16px;
-  border-radius:10px;
-  padding: 8px 0px;
 }
 
 .main{
@@ -88,12 +78,13 @@
 .name,.type{
     width: 200px;
     height: 80px;
+    padding: 0px 30px;
 }
 
 .detail{
     width: 400px;
     height: 420px;
-    background-color: orange;
+    padding: 0px 30px;
 }
 
 .footer{
