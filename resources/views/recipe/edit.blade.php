@@ -7,10 +7,10 @@
             <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
             </div>
             <div class="boxes">
-                <div class=""></div>
-                <div class=""></div>
-                <div class=""></div>
-                <div class=""></div>
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"><a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a></div>
             </div>
         </div>
 
@@ -22,6 +22,9 @@
                 </div>
             @endif
         <div class="body">
+            <div class="edit-form">
+
+            </div>
             <form action="{{ route('edit_save', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 @method("PUT")
