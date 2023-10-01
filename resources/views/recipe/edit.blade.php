@@ -7,13 +7,6 @@
             <h1>レシピの編集</h1>
             </div>
         </div>
-        <div class="sub-header">
-            <div class="header-menu">
-            <a href="/main/menu">メインメニュー</a>　》　<a href="/recipe/list">料理の登録・一覧</a>　》料理の編集
-            </div>
-        </div>
-
-        <hr>
 
             @if ($errors->any())
                 <div>
