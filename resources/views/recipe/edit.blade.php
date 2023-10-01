@@ -4,7 +4,13 @@
 @section('edit.page')
         <div class="header">
             <div class="header-logo">
-            <h1>レシピの編集</h1>
+            <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
+            </div>
+            <div class="boxes">
+                <div class=""></div>
+                <div class=""></div>
+                <div class=""></div>
+                <div class=""></div>
             </div>
         </div>
 
