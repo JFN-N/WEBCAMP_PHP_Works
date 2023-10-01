@@ -22,9 +22,10 @@
     <div class="main">
 
     <div class="contents">
+        <div class="c-logo"></div>
         <div class="NT">
-        <div class="name">料理名：<br>{{ $recipe->name }}</div>
-        <div class="type">種類：<br>{{ $recipe->getTypeString() }}</div>
+          <div class="name">料理名：<br>{{ $recipe->name }}</div>
+          <div class="type">種類：<br>{{ $recipe->getTypeString() }}</div>
         </div>
         <div class="detail">料理の詳細： <pre>{{ $recipe->detail }}</pre><br></div>
     </div>
@@ -34,6 +35,6 @@
 
 
         <div class="footer">
-        <a href="/main/menu">メインメニューに戻る</a>
+        <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
         </div>
 @endsection

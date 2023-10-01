@@ -14,7 +14,7 @@
                 <a href="/archive/data" class="btn02">実績</a>
             </div>
             <div class="box2">
-                <a href="/main/menu" class="btn02">メニュー</a>
+                <a href="/main/menu" class="btn02">メイン</a>
             </div>
             <div class="box3">
                 <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
@@ -89,7 +89,7 @@
 
         <div class ="footer">
         <menu label="リンク">
-        <br><a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
+        <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
         </menu>
         </div>
 
