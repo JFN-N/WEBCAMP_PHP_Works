@@ -46,9 +46,5 @@
 
     </div>
 
-    <div class="footer">
-        <a href="/main/menu">メインメニューに戻る</a>
-    </div>
-
 
 @endsection
