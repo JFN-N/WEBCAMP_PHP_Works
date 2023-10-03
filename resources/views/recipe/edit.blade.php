@@ -7,9 +7,9 @@
             <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
             </div>
             <div class="boxes">
-                <div class="box1"><a href="/main/menu">メイン</a></div>
-                <div class="box2"><a href="/archive/data">実績</a></div>
-                <div class="box3"><a href="/recipe/list">登録</a></div>
+                <div class="box1"><a href="/main/menu" class="btn01">メイン</a></div>
+                <div class="box2"><a href="/archive/data" class="btn01"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a></div>
+                <div class="box3"><a href="/recipe/list" class="btn01"><i class="fa-solid fa-book"></i>&nbsp;登録</a></div>
                 <div class="box4"><a href="/logout" class="btn01"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a></div>
             </div>
         </div>
