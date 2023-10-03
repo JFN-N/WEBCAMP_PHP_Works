@@ -49,6 +49,10 @@
   padding: 8px 0px;
 }
 
+.btn01:hover{
+ color: white;
+}
+
 .body{
     width: 100%;
     height: 800px;
