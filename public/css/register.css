@@ -8,15 +8,16 @@
 
     .header{
         width: 100%;
-        height: 50px;
-        background-color:#F0BF4C;
+        height: 100px;
+        background-color: #F1F5F8;
     }
 
     .header-logo{
-        width: 900px;
-        height: 50px;
-        margin: 0 auto;
-        font-size: 14px;
+        width: 400px;
+        height: 100px;
+        padding: 20px 0px;
+        margin: 0px 300px;
+        color: #52A0A8;
     }
 
     .main{
