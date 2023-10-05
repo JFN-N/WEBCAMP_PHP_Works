@@ -41,4 +41,13 @@ class MainController extends Controller
         return view('main.menu',['list' => $list]);
     }
 
+    /**
+     * タスクの詳細閲覧
+     */
+    public function detail($complete_recipe_id)
+    {
+        //
+        return $this->singleTaskRender($complete_recipe_id, 'mastered.recipe');
+    }
+
 }
