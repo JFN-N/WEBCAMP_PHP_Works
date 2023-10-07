@@ -44,7 +44,7 @@ Route::get('/main/menu', [MainController::class, 'list']);
 
 Route::get('/archive/data', [ArchiveController::class, 'list']);
 
-Route::get('/mastered/recipe/{completed_recipe_id}', [MainController::class, 'detail'])->whereNumber('cpmpleted_recipe_id')->name('detail');
+Route::get('/mastered/recipe/{complete_recipe_id}', [MainController::class, 'detail'])->whereNumber('complete_recipe_id')->name('detail');
 
 // 認可処理
 Route::middleware(['auth'])->group(function () {

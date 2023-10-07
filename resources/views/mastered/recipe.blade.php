@@ -20,9 +20,9 @@
     </div>
 
     <div class="contents">
-        <div class="name">料理名： {{ $complete_recip->name }}<br></div>
-        <div class="type">種類： {{ $complete_recip->getTypeString() }}<br></div>
-        <div class="detail">料理の詳細： <pre>{{ $complete_recip->detail }}</pre><br></div>
+        <div class="name">料理名： {{ $complete_recipe->name }}<br></div>
+        <div class="type">種類： {{ $complete_recipe->getTypeString() }}<br></div>
+        <div class="detail">料理の詳細： <pre>{{ $complete_recipe->detail }}</pre><br></div>
     </div>
 
         <div class="footer">
