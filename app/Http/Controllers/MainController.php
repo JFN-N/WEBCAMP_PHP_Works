@@ -50,4 +50,34 @@ class MainController extends Controller
         return $this->singleTaskRender($complete_recipe_id, 'mastered.recipe');
     }
 
+     /**
+     * 「単一のタスク」Modelの取得
+     */
+    protected function getCompletedRecipeModel($complete_recipe_id)
+    {
+        // task_idのレコードを取得する
+        $complete_recipe = CompletedRecipeModel::find($complete_recipe_id);
+        if ($complete_recipe === null) {
+            return null;
+        }
+        // 本人以外のタスクならNGとする
+        if ($complete_recipe->user_id !== Auth::id()) {
+            return null;
+        }
+        //
+        return $complete_recipe;
+    }
+
+    protected function singleTaskRender($complete_recipe_id, $template_name)
+    {
+        // task_idのレコードを取得する
+        $complete_recipe = $this->getCompletedRecipeModel($complete_recipe_id);
+        if ($complete_recipe === null) {
+            return redirect('/main/menu');
+        }
+
+        // テンプレートに「取得したレコード」の情報を渡す
+        return view($template_name, ['complete_recipe' => $complete_recipe]);
+    }
+
 }
