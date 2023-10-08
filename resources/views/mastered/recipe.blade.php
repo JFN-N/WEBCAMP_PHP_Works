@@ -36,9 +36,10 @@
         <div class="detail">料理の詳細： <pre>{{ $complete_recipe->detail }}</pre><br></div>
     </div>
 
+    <div class="sub-main">
+        <a href="/main/menu" class="btn03">メインに戻る</a>
     </div>
 
-    <div class="footer">
-
     </div>
+
 @endsection
