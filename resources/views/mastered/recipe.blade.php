@@ -7,9 +7,9 @@
         <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター</h1>
         </div>
         <div class="boxes">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
         </div>
     </div>
 
