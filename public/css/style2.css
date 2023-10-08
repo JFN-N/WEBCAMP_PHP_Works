@@ -82,6 +82,7 @@
   height:60px;
   padding-top: 10px;
   padding-left:100px;
+  color: pink;
 }
 
 .complete-table{
@@ -161,7 +162,12 @@ td{
 
 }
 
-
+.page-item.active .page-link {
+    z-index: 3;
+    color: pink;
+    background-color: green;
+    border-color: #0d6efd;
+}
 
 @media(max-width:600px){
 
