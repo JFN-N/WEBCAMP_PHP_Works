@@ -21,17 +21,21 @@
 
     </div>
 
-    <div class="titile">
-        <h1></h1>
-    </div>
+    <div class="main">
 
     <div class="contents">
+        <div class="c-titile">
+            <h2>作れる料理の詳細</h2>
+        </div>
+
         <div class="name">料理名： {{ $complete_recipe->name }}<br></div>
         <div class="type">種類： {{ $complete_recipe->getTypeString() }}<br></div>
         <div class="detail">料理の詳細： <pre>{{ $complete_recipe->detail }}</pre><br></div>
     </div>
 
-        <div class="footer">
+    </div>
 
-        </div>
+    <div class="footer">
+
+    </div>
 @endsection
