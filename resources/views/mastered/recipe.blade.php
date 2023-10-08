@@ -16,6 +16,9 @@
             <div class="box3">
                 <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
             </div>
+            <div class="">
+
+            </div>
         </div>
     </div>
 
