@@ -58,6 +58,7 @@
             <div class="PN">
                 {{ $list->links('vendor.pagination.bootstrap-4') }}
             </div>
+            <div class="contents">
 
             <div class="list-view">
             <!--　-->
@@ -82,6 +83,10 @@
             @endforeach
             </table>
             </div>
+
+            </div>
+
+
         </div>
 
 

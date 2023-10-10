@@ -1,4 +1,16 @@
 
+.page-item.active .page-link {
+    z-index: 3;
+    color: white;
+    background-color: #52A0A8;
+    border-color: #0d6efd;
+}
+
+.page-item{
+  text-decoration: none;
+  color: #52A0A8;
+}
+
 @media screen and (min-width:481px) {
 	/* ここにパソコン版だけの記述 */
 	* {
@@ -106,7 +118,7 @@ button{
 
 .list-form{
     width: 100%;
-    height:700px;
+    height:750px;
     background-color: #F1F5F8;
 }
 
@@ -128,17 +140,25 @@ button{
 .PN{
  width: 100%;
  height: 60px;
- background-color: #4EAEB5;
+ background-color: #F1F5F8;
  padding-top: 20px;
  padding-left: 150px;
+}
+
+.contents{
+  width:1300px;
+  height:550px;
+  box-shadow:  1px 1px 5px black;
+  margin: 0px 100px;
+  padding: 0px 50px;
+  background-color: white;
 }
 
 .list-view{
     width: 1200px;
     height: 500px;
     background-color: white;
-    margin: 0px 150px;
-    box-shadow:  1px 1px 5px black;
+
 }
 
 .list-button{
@@ -161,7 +181,7 @@ th,td{
 }
 
 th{
-    background-color: orange;
+  background-color: white;
 }
 
 
