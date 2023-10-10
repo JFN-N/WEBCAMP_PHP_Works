@@ -36,7 +36,7 @@
         <tr>
             <td>{{ $complete_recipe->name }}
             <td>{{ $complete_recipe->getTypeString() }}
-            <td><a href="{{ route('complete_recipe_detail', ['complete_recipe_id' => $complete_recipe->id]) }}">詳細閲覧</a>
+            <td><a href="{{ route('complete_recipe_detail', ['complete_recipe_id' => $complete_recipe->id]) }}" class="btn02">詳細閲覧</a>
     @endforeach
         </table>
         </div>
