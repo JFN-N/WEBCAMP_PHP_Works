@@ -71,8 +71,8 @@
             <tr>
                 <td>{{ $recipe->name }}
                 <td>{{ $recipe->getTypeString() }}
-                <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}" class="">詳細閲覧</a>
-                <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}" class="">編集</a>
+                <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}" class="btn04">詳細閲覧</a>
+                <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}" class="btn04">編集</a>
                 <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 <button onclick='return confirm("この料理を作れるようになりましたか？");' class="btn05">完了</button></form></a>

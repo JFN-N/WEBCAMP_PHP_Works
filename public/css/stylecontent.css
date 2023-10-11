@@ -94,6 +94,29 @@ button{
   color: white;
 }
 
+.btn04:hover{
+  background-color: #4EAEB5;
+  color: white;
+}
+
+.btn05:hover{
+  background-color: #4EAEB5;
+  color: white;
+}
+
+.btn04{
+ display:block;
+ text-align: center;
+ padding: 10px 0px;
+ width: 150px;
+ height: 50px;
+ border-radius:30px;
+ background-color: #F1F5F8;
+ color: #4EAEB5;
+ border: 3px solid #4EAEB5;
+ text-decoration: none;
+}
+
 .btn05{
   text-decoration: none;
   background-color: #F1F5F8;
