@@ -43,14 +43,4 @@
 
             </form>
         </div>
-
-
-        <hr>
-        <div class="footer">
-        <menu label="リンク">
-        <a href="/main/menu">メインメニューに戻る</a><br><br>
-        <a href="/recipe/list">料理の登録・確認に戻る</a><br>
-        <br><a href="/logout">ログアウト</a><br>
-        </menu>
-        </div>
 @endsection

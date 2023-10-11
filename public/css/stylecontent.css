@@ -94,6 +94,16 @@ button{
   color: white;
 }
 
+.btn05{
+  text-decoration: none;
+  background-color: #F1F5F8;
+  color: #4EAEB5;
+  border: 3px solid #4EAEB5;
+  border-radius: 30px;
+  width: 140px;
+  height: 50px;
+}
+
 .session{
     color: red;
     width:968px;
