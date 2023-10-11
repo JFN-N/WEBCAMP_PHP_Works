@@ -22,7 +22,9 @@
     <div class="main">
 
     <div class="contents">
-        <div class="c-logo"></div>
+        <div class="c-logo">
+            <h2>挑戦している料理</h2>
+        </div>
         <div class="NT">
           <div class="name">料理名：<br>{{ $recipe->name }}</div>
           <div class="type">種類：<br>{{ $recipe->getTypeString() }}</div>

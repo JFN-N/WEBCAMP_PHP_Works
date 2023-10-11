@@ -11,7 +11,7 @@
 
         <div class="boxes">
             <div class="box1">
-                <a href="/archive/data" class="btn02">実績</a>
+                <a href="/archive/data" class="btn02"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a>
             </div>
             <div class="box2">
                 <a href="/main/menu" class="btn02">メイン</a>
