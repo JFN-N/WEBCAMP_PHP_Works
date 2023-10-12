@@ -48,7 +48,9 @@
             <div class="ftxt-box">
             <h2>登録機能</h2>
             </div>
-            <div class="sc"></div>
+            <div class="sc">
+                <img src="../storage/register.png" class="img3">
+            </div>
             <div class="summary">
             <p>名称、種類、そして詳細を入力して</p>
             <p>登録を行います</p>
@@ -59,7 +61,9 @@
         <div class="ftxt-box">
             <h2>リスト機能</h2>
         </div>
-        <div class="sc"></div>
+        <div class="sc">
+
+        </div>
         <div class="summary">
             <p>名称、種類、そして詳細を入力して</p>
             <p>登録を行います</p>
