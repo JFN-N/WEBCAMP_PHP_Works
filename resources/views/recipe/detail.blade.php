@@ -35,7 +35,7 @@
     </div>
 
     <div class="sub-main">
-        <a href="/recipe/list" class="btn03">登録に戻る</a>
+        <a href="/recipe/list" class="btn03">戻る</a>
     </div>
 
 

@@ -70,10 +70,12 @@
         <div class="ftxt-box">
             <h2>実績確認機能</h2>
         </div>
-        <div class="sc"></div>
+        <div class="sc">
+            <img src="../storage/achievement.png" class="img3">
+        </div>
         <div class="summary">
-            <p>名称、種類、そして詳細を入力して</p>
-            <p>登録を行います</p>
+            <p>作れるようになった料理を</p>
+            <p>集計して表示できます</p>
             </div>
         </div>
     </div>
