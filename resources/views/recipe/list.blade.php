@@ -11,13 +11,13 @@
 
         <div class="boxes">
             <div class="box1">
-                <a href="/archive/data" class="btn02"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a>
+                <a href="/archive/data" class="btn01"><i class="fa-solid fa-trophy"></i>&nbsp;実績</a>
             </div>
             <div class="box2">
-                <a href="/main/menu" class="btn02">メイン</a>
+                <a href="/main/menu" class="btn01"><i class="fa-solid fa-house"></i>&nbsp;メイン</a>
             </div>
             <div class="box3">
-                <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
+                <a href="/logout" class="btn01"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                     詳細<br><br><textarea name="detail">{{ old('detail') }}</textarea><br>
                 </div>
                 <div class="c4">
-                    <button class="btn03">登録する</button>
+                    <button class="btn02">登録する</button>
                 </div>
             </form>
             </div>
@@ -71,15 +71,15 @@
             <tr>
                 <td>{{ $recipe->name }}
                 <td>{{ $recipe->getTypeString() }}
-                <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}" class="btn04">詳細閲覧</a>
-                <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}" class="btn04">編集</a>
+                <td><a href="{{ route('detail', ['recipe_id' => $recipe->id]) }}" class="btn03">詳細閲覧</a>
+                <td><a href="{{ route('edit', ['recipe_id' => $recipe->id]) }}" class="btn03">編集</a>
                 <td><form action="{{ route('complete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
-                <button onclick='return confirm("この料理を作れるようになりましたか？");' class="btn05">完了</button></form></a>
+                <button onclick='return confirm("この料理を作れるようになりましたか？");' class="btn04">完了</button></form></a>
                 <td><form action="{{ route('delete', ['recipe_id' => $recipe->id]) }}" method="post">
                 @csrf
                 @method("DELETE")
-                <button onclick='return confirm("レシピを削除しますか？");' class="btn05">削除</button></form></a>
+                <button onclick='return confirm("レシピを削除しますか？");' class="btn04">削除</button></form></a>
             @endforeach
             </table>
             </div>
@@ -93,9 +93,15 @@
     </div>
 
         <div class ="footer">
-        <menu label="リンク">
-        <a href="/logout" class="btn02"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a><br>
-        </menu>
+          <div class="box4">
+            <a href="/main/menu" class="btn03">戻る</a>
+          </div>
+          <div class="box5">
+            <menu label="リンク">
+            <a href="/logout" class="btn01"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;ログアウト</a>
+            </menu>
+          </div>
+
         </div>
 
 </div>
