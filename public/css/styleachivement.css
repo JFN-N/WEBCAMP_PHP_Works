@@ -43,6 +43,12 @@
   padding: 20px 25px;
 }
 
+.box4{
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
+}
+
 .btn01{
   display: block;
   width: 100px;
@@ -68,11 +74,27 @@
   font-size: 16px;
   border-radius:10px;
 }
-}
 
 .btn03{
-
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: #F1F5F8;
+  color: #4EAEB5;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  border-radius:30px;
+  padding: 5px 0px;
+  border: 3px solid #4EAEB5;
+  margin: 0px auto;
 }
+
+.btn03:hover{
+  background-color: #4EAEB5;
+  color: white;
+}
+
 .main{
   width: 100%;
   height: 800px;
@@ -115,8 +137,6 @@ th,tr,td{
 .footer{
   width: 100%;
   height: 100px;
-  padding-top: 10px;
-  text-align: center;
 }
 
 
@@ -130,5 +150,5 @@ th,tr,td{
   }
 
 
-
+}
 }

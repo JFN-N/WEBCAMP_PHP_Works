@@ -46,5 +46,11 @@
 
     </div>
 
+    <div class="footer">
+        <div class="box4">
+            <a href="/main/menu" class="btn03">戻る</a>
+        </div>
+    </div>
+
 
 @endsection
