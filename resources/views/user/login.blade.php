@@ -11,11 +11,7 @@
         </div>
     </div>
 
-    <hr size="10" color="orange">
-
     <div class="body">
-
-
 
         <div class="form-main">
             <div class="alert">
@@ -64,8 +60,6 @@
             </div>
 
     </div>
-
-    <hr>
 
     <div class="footer">
         <a href="/">トップページに戻る</a>

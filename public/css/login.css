@@ -7,82 +7,30 @@
     box-sizing: border-box;
   }
 
-  .header{
-    background-color: #FFD200;
-    width: 100%;
-    height: 50px;
-  }
+.header{
+  width: 100%;
+  height: 100px;
+}
 
-  .header-logo{
-    width: 900px;
-    height: 50px;
-    padding-top: 5px;
-    margin: 0 300px;
-  }
+.header-logo{
+  width: 400px;
+  height: 100px;
+  background-color: orange;
+  padding: 20px 0px;
+  margin: 0px 250px;
+}
 
-  .body{
-    width: 100%;
-    height:900px;
-     /*display: flex;*//* Flexboxを設定 */
-     /*flex-wrap: wrap;*//* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
-  }
+.body{
+  width: 100%;
+  height: 1500px;
+}
 
-  .form-main{
-    width: 100%;
-  }
+.form{
+ width: 800px;
+ height: 800px;
+ background-color: orange;
+}
 
-  .alert{
-    width: 100%;
-    height: 200px;
-    font-size: 18px;
-    text-align: center;
-    padding: 40px;
-  }
-
-  .form{
-    width: 100%;
-    height: 300px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 18px;
-  }
-
-  .register{
-    height: 200px;
-    text-align: center;
-    padding: 40px;
-    font-size: 18px;
-    background-color: orange;
-  }
-
-  .guestLoginButton{
-    width: 100%;
-    height:200px;
-    font-size: 20px;
-    text-align: center;
-    padding: 30px;
-  }
-
-  .btn01{
-    width: 300px;
-    height: 50px;
-    font-size: 18px;
-  }
-
-  .input-size{
-    width: 600px;
-    height: 50px;
-    font-size: 16px;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .footer{
-   width: 100%;
-   height: 100px;
-   text-align: center;
-   padding: 20px;
-  }
 
 }
 
