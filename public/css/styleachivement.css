@@ -62,6 +62,10 @@
   border-radius:10px;
 }
 
+.btn01:hover{
+  color: white;
+}
+
 .btn02{
   display: block;
   width: 150px;
@@ -73,6 +77,10 @@
   text-align: center;
   font-size: 16px;
   border-radius:10px;
+}
+
+.btn02:hover{
+  color: white;
 }
 
 .btn03{
