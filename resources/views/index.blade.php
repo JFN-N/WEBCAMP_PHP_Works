@@ -62,7 +62,7 @@
             <h2>リスト機能</h2>
         </div>
         <div class="sc">
-
+            <img src="../storage/list.png" class="img3">
         </div>
         <div class="summary">
             <p>名称、種類、そして詳細を入力して</p>
