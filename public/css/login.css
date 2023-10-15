@@ -23,27 +23,24 @@
 
 .body{
   width: 100%;
-  height: 1500px;
+  height: 1000px;
 }
 
 .form-main{
   width: 600px;
   height: 510px;
-  background-color: orange;
   margin: 0px auto;
 }
 
 .alert{
   width: 600px;
   height: 150px;
-  background-color: green;
   font-size: 18px;
 }
 
 .form{
   width: 600px;
   height: 300px;
-  background-color: pink;
 }
 
 .form-email,.form-password,.form-button{
@@ -53,21 +50,38 @@
   text-align: center;
 }
 
-.register{
+.register,.guestLoginButton{
   width: 600px;
-  height: 300px;
-  background-color: green;
-  text-align: center;
+  height: 200px;
   margin: 0px auto;
 }
 
 .box1,.box2{
   width: 600px;
   height: 100px;
+  text-align: center;
 }
 
 .box2{
   padding: 0px 230px;
+}
+
+.box3{
+  height: 600px;
+  height: 50px;
+  text-align: center;
+}
+
+.box4{
+  width: 600px;
+  height: 80px;
+  padding: 0px 225px;
+}
+
+.box5{
+  width: 300px;
+  height: 100px;
+  margin: 0px auto;
 }
 
 .btn01{
@@ -101,6 +115,45 @@
 .btn02:hover{
   background-color: #4EAEB5;
   color: white;
+}
+
+.btn03{
+  text-decoration: none;
+  background-color: #F1F5F8;
+  color: #4EAEB5;
+  border: 3px solid #4EAEB5;
+  border-radius: 30px;
+  width: 140px;
+  height: 50px;
+  margin: 0px auto;
+}
+
+.btn03:hover{
+  background-color: #4EAEB5;
+  color: white;
+}
+
+.btn04{
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #52A0A8;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  border-radius:10px;
+  padding: 8px 0px;
+  margin: 0px 90px;
+}
+
+.btn04:hover{
+  color: white;
+}
+
+.footer{
+  width: 100%;
+  height: 150px;
 }
 
 }

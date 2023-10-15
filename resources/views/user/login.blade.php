@@ -56,17 +56,24 @@
         </div>
 
         <div class=guestLoginButton>
-        <p>ゲストログインはこちらから</p><br>
-        <form action="{{ route('login.guest') }}" method="post" class="btn">
-            @csrf
-            <button class="btn01">ゲストログイン</button>
-        </form>
+            <div class="box3">
+                <p>ゲストログインはこちらから</p>
+            </div>
+            <div class="box4">
+                <form action="{{ route('login.guest') }}" method="post" class="btn">
+                @csrf
+                <button class="btn03">ゲストログイン</button>
+                </form>
+            </div>
+
         </div>
 
     </div>
 
     <div class="footer">
-        <a href="/">トップページに戻る</a>
+        <div class="box5">
+          <a href="/" class="btn04">トップページに戻る</a>
+        </div>
     </div>
 
 </div>
