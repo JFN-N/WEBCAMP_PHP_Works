@@ -29,35 +29,39 @@
 
             <div class="form">
             <form action="/login" method="post">
-                <div class="form-input">
+                <div class="form-email">
                 @csrf
                 email：<br>
-                <input name="email" class="input-size"><br>
+                <input name="email" class="input-size">
+                </div>
+                <div class="form-password">
                 パスワード：<br>
-                <input name="password" type="password" class="input-size"><br>
+                <input name="password" type="password" class="input-size">
                 </div>
                 <div class="form-button">
-                <br><button class="btn01">ログイン</button>
+                <button class="btn01">ログイン</button>
                 </div>
             </form>
             </div>
-            </div>
+        </div>
 
-            <div class="register">
+        <div class="register">
+            <div class="box1">
             <p>ユーザー未登録の場合は</p>
-            <p>以下から登録をお願い致します。</p><br>
-            <a href="/user/register">会員登録</a>
+            <p>以下から登録をお願い致します。</p>
             </div>
-
-
-
-            <div class=guestLoginButton>
-            <p>ゲストログインはこちらから</p><br>
-            <form action="{{ route('login.guest') }}" method="post" class="btn">
-                @csrf
-                <button class="btn01">ゲストログイン</button>
-            </form>
+            <div class="box2">
+                <a href="/user/register" class="btn02">会員登録</a>
             </div>
+        </div>
+
+        <div class=guestLoginButton>
+        <p>ゲストログインはこちらから</p><br>
+        <form action="{{ route('login.guest') }}" method="post" class="btn">
+            @csrf
+            <button class="btn01">ゲストログイン</button>
+        </form>
+        </div>
 
     </div>
 
