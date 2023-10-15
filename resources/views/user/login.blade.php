@@ -7,7 +7,7 @@
 
     <div class="header">
         <div class="header-logo">
-        <h1>レシピマスター　ログイン</h1>
+        <h1><i class="fa-solid fa-pizza-slice"></i>&nbsp;レシピマスター　ログイン</h1>
         </div>
     </div>
 
@@ -62,7 +62,7 @@
             <div class="box4">
                 <form action="{{ route('login.guest') }}" method="post" class="btn">
                 @csrf
-                <button class="btn03">ゲストログイン</button>
+                <button class="btn03"><i class="fa-solid fa-user-minus"></i>&nbsp;ゲストログイン</button>
                 </form>
             </div>
 

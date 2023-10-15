@@ -32,12 +32,14 @@
             名前：<input name="name"><br><br>
             email：<input name="email"><br><br>
             パスワード：<input  name="password" type="password"><br><br>
-            <button>登録する</button>
+            <button class="btn01">登録する</button>
         </form>
         </div>
 
         <div class="back">
-            <a href="/">最初のページに戻る</a>
+            <div class="box1">
+              <a href="/" class="btn02">最初のページに戻る</a>
+            </div>
         </div>
 
         </div>

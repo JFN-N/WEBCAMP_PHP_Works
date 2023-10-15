@@ -14,7 +14,7 @@
 }
 
 .header-logo{
-  width: 400px;
+  width: 500px;
   height: 100px;
   padding: 20px 0px;
   margin: 0px 300px;
@@ -75,7 +75,7 @@
 .box4{
   width: 600px;
   height: 80px;
-  padding: 0px 225px;
+  padding: 0px 220px;
 }
 
 .box5{
@@ -118,6 +118,15 @@
 }
 
 .btn03{
+  width: 150px;
+  height: 35px;
+  background-color: #D9594B;
+  color: white;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.btn04{
   text-decoration: none;
   background-color: #F1F5F8;
   color: #4EAEB5;
@@ -128,7 +137,7 @@
   margin: 0px auto;
 }
 
-.btn03:hover{
+.btn04:hover{
   background-color: #4EAEB5;
   color: white;
 }
@@ -144,7 +153,7 @@
   font-size: 16px;
   border-radius:10px;
   padding: 8px 0px;
-  margin: 0px 90px;
+  margin: 0px 85px;
 }
 
 .btn04:hover{
