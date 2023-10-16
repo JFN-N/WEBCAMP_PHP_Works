@@ -37,7 +37,7 @@
     </div>
 
     <div class="sub-main">
-        <a href="/main/menu" class="btn03">メインに戻る</a>
+        <a href="/main/menu" class="btn03">戻る</a>
     </div>
 
     </div>
