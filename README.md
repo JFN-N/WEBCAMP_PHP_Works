@@ -12,9 +12,9 @@
 そこから本アプリケーションの開発へとむかった。
 
 # 使用技術
-HTML/CSS
-PHP7.4
-laravel
+HTML/CSS<br>
+PHP7.4<br>
+laravel<br>
 AWS
 
 # 機能一覧
